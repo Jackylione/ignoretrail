@@ -1,0 +1,6 @@
+--- FAIL: TestHelpTakesPrecedenceOverPositionalArguments (0.31s)
+    main_test.go:247: unexpected help result: {code:2 out: err:ignoretrail: flag: help requested
+        }
+FAIL
+FAIL	ignoretrail	9.322s
+FAIL

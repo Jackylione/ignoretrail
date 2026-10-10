@@ -1,0 +1,5 @@
+--- FAIL: TestIgnoreFileNamesWithSpacesAreQuoted (0.32s)
+    main_test.go:240: got code=1 stdout="EXCLUDED \"a1.txt\"\n  exclude 构建 file.Dockerfile.dockerignore:1 \"[ab]?.txt\"\n" stderr=""; want code=1 stdout="EXCLUDED \"a1.txt\"\n  exclude \"构建 file.Dockerfile.dockerignore\":1 \"[ab]?.txt\"\n"
+FAIL
+FAIL	ignoretrail	9.019s
+FAIL

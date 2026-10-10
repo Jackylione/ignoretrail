@@ -1,0 +1,61 @@
+{
+  "checked_on": "2026-10-10 Asia/Shanghai",
+  "tools": [
+    {
+      "url": "https://github.com/astral-sh/ruff/releases/tag/0.16.10",
+      "version": "0.16.10",
+      "published_at": "2026-10-01T18:04:27Z",
+      "retrieved_at": "2026-10-09T16:22:06.155967+00:00"
+    },
+    {
+      "url": "https://github.com/npm/cli/releases/tag/v12.2.0",
+      "version": "v12.2.0",
+      "published_at": "2026-09-30T16:47:29Z",
+      "retrieved_at": "2026-10-09T16:22:04.338486+00:00"
+    },
+    {
+      "url": "https://github.com/pnpm/pnpm/releases/tag/v12.10.1",
+      "version": "v12.10.1",
+      "published_at": "2026-10-06T17:37:30Z",
+      "retrieved_at": "2026-10-09T16:22:05.877172+00:00"
+    },
+    {
+      "url": "https://github.com/moby/buildkit/releases/tag/v0.34.0",
+      "version": "v0.34.0",
+      "published_at": "2026-10-07T23:37:31Z",
+      "retrieved_at": "2026-10-09T16:22:06.183508+00:00"
+    },
+    {
+      "url": "https://github.com/moby/patternmatcher/releases/tag/v0.6.1",
+      "version": "v0.6.1",
+      "published_at": "2026-03-24T19:29:16Z",
+      "retrieved_at": "2026-10-09T16:25:27.970049+00:00"
+    },
+    {
+      "url": "https://github.com/docker/docker-py/releases/tag/7.2.0",
+      "version": "7.2.0",
+      "published_at": "2026-07-09T14:57:18Z",
+      "retrieved_at": "2026-10-09T16:25:27.981764+00:00"
+    },
+    {
+      "name": "langgraph-cli",
+      "version": "0.4.33",
+      "url": "https://pypi.org/project/langgraph-cli/0.4.33/",
+      "archive_source_commit": "8657df80f36625490b05a0bfa14e63ac747a8243"
+    },
+    {
+      "name": "docker-show-context",
+      "latest_tag": "v1.1.1",
+      "head_commit": "19f133f08f92074bb8a6bb89f482532e5632d18b",
+      "head_date": "2021-04-12T15:52:35Z",
+      "url": "https://github.com/pwaller/docker-show-context"
+    },
+    {
+      "name": "Go toolchain used",
+      "version": "go1.27.2",
+      "url": "https://go.dev/dl/",
+      "sha256": "ecbadb99091a3f46e31f5f934b068b1864eafa7995211b39eaddf76996045fe5",
+      "scope": ".tools/go inside this project only"
+    }
+  ]
+}

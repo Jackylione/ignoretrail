@@ -1,0 +1,6 @@
+--- FAIL: TestExcludedDirectoryExplainsRuleLine (0.08s)
+    main_test.go:57: build CLI: exit status 1
+        ignoretrail: no non-test Go files in /home/ubuntu/codex-worker/projects/devtool-20261010
+FAIL
+FAIL	ignoretrail	0.083s
+FAIL

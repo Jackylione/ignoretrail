@@ -1,0 +1,5 @@
+--- FAIL: TestOnlyFirstLineBOMIsRemovedAndOriginalLinesSurvive (0.31s)
+    main_test.go:107: got code=1 stdout="EXCLUDED \"cache/item\"\n  exclude .dockerignore:3 \"\\ufeffcache/\"\nEXCLUDED \"#literal\"\n  exclude .dockerignore:4 \"  #literal\"\n" stderr=""; want code=1 stdout="INCLUDED \"cache/item\"\n  no matching exclusion\nEXCLUDED \"#literal\"\n  exclude .dockerignore:4 \"  #literal\"\n"
+FAIL
+FAIL	ignoretrail	2.174s
+FAIL

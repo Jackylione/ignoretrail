@@ -1,0 +1,5 @@
+--- FAIL: TestMissingIgnoreFileIncludesWithoutCreatingFiles (0.32s)
+    main_test.go:91: got code=2 stdout="" stderr="ignoretrail: open /home/ubuntu/codex-worker/projects/devtool-20261010/.tmp/TestMissingIgnoreFileIncludesWithoutCreatingFiles1320998421/001/.dockerignore: no such file or directory\n"; want code=0 stdout="INCLUDED \"new file.txt\"\n  no matching exclusion\n"
+FAIL
+FAIL	ignoretrail	1.533s
+FAIL

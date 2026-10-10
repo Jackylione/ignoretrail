@@ -1,0 +1,22 @@
+--- FAIL: TestInvalidPathsRejectWholeBatchWithoutPartialOutput (0.97s)
+    --- FAIL: TestInvalidPathsRejectWholeBatchWithoutPartialOutput/../outside (0.30s)
+        main_test.go:125: unexpected invalid-path result: {code:1 out:EXCLUDED "cache/item"
+              exclude .dockerignore:1 "cache/"
+            INCLUDED "../outside"
+              no matching exclusion
+             err:}
+    --- FAIL: TestInvalidPathsRejectWholeBatchWithoutPartialOutput//outside (0.31s)
+        main_test.go:125: unexpected invalid-path result: {code:1 out:EXCLUDED "cache/item"
+              exclude .dockerignore:1 "cache/"
+            INCLUDED "/outside"
+              no matching exclusion
+             err:}
+    --- FAIL: TestInvalidPathsRejectWholeBatchWithoutPartialOutput/#00 (0.36s)
+        main_test.go:125: unexpected invalid-path result: {code:1 out:EXCLUDED "cache/item"
+              exclude .dockerignore:1 "cache/"
+            INCLUDED "."
+              context root is never excluded
+             err:}
+FAIL
+FAIL	ignoretrail	3.437s
+FAIL

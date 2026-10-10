@@ -1,0 +1,5 @@
+--- FAIL: TestRootGlobDoesNotExcludeNestedFiles (0.31s)
+    main_test.go:84: got code=1 stdout="INCLUDED \"nested/app.log\"\nEXCLUDED \"app.log\"\n  exclude .dockerignore:1 \"*.log\"\n" stderr=""; want code=1 stdout="INCLUDED \"nested/app.log\"\n  no matching exclusion\nEXCLUDED \"app.log\"\n  exclude .dockerignore:1 \"*.log\"\n"
+FAIL
+FAIL	ignoretrail	1.266s
+FAIL

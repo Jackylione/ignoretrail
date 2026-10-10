@@ -1,0 +1,2573 @@
+{
+  "note": "Search results are candidates, not qualifying evidence. Some broad searches failed with HTTP 403 or IncompleteRead and were narrowed; initial parenthesized repository queries returned zero and were replaced. Only evidence.json sources count.",
+  "queries": [
+    {
+      "query": "is:issue created:>=2026-07-10 \"shadow\" \"module\" in:title",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22shadow%22+%22module%22+in%3Atitle&per_page=10&sort=comments&order=desc",
+      "retrieved_at": "2026-10-09T16:24:21.568409+00:00",
+      "total_count": 339,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "[P1][CORE vNext][D] Implement PLAN_DELTA + Manager-HA shadow modules",
+          "url": "https://github.com/newsdayads/tigeriq-ai-lab/issues/4463",
+          "author": "newsdayads",
+          "created_at": "2026-10-07T06:11:47Z"
+        },
+        {
+          "title": "lsp(definition): shadow-promote semantic module and package navigation",
+          "url": "https://github.com/EffortlessMetrics/perl-lsp-swarm/issues/4243",
+          "author": "EffortlessSteven",
+          "created_at": "2026-07-14T22:13:25Z"
+        },
+        {
+          "title": "merge_executor.lua:550 check_runs local shadows module → :682 crashes on not-mergeable/high-risk merge_reason, :692-703 dead",
+          "url": "https://github.com/ChronoAIProject/fkst-packages/issues/2462",
+          "author": "ElonSG",
+          "created_at": "2026-07-19T09:18:23Z"
+        },
+        {
+          "title": "[business-logic] the German catalog returns Chinese for 4 panel.model keys (vendor_not_found, endpoint_not_found, save_failed, endpoint_save_failed) hit directly in the main switch so German users see Chinese error text in the model panel; 66 of 75 module catalog keys are shadowed by the main switch with 24 drifted dead copies that silently ignore edits",
+          "url": "https://github.com/topcheer/ggcode/issues/1725",
+          "author": "topcheer",
+          "created_at": "2026-09-06T04:08:15Z"
+        },
+        {
+          "title": "CI cache restore-key prefixes let dev's report/build bundles shadow a validation branch's own: judge-layer integration mirrors rebuild 202 judge modules and full-fallback the inspector every run",
+          "url": "https://github.com/the-omega-institute/trureturing/issues/7238",
+          "author": "macstudio-4[bot]",
+          "created_at": "2026-09-12T07:37:32Z"
+        },
+        {
+          "title": "[Bug]: Legacy in-tree venv (py3.11 site-packages) shadows `rpds` for the bundled py3.14 daemon — every outputSchema MCP tool fails with `No module named 'rpds.rpds'`, survives restarts",
+          "url": "https://github.com/NousResearch/hermes-agent/issues/127387",
+          "author": "ashharadnan",
+          "created_at": "2026-09-29T04:49:02Z"
+        },
+        {
+          "title": "[Shadow Nested Node Modules][Epic] tsconfig extends into a nested workspace node_modules pre-creates the shadow dir (EEXIST)",
+          "url": "https://github.com/Takazudo/zudo-front-builder/issues/2299",
+          "author": "Takazudo",
+          "created_at": "2026-08-05T03:20:25Z"
+        },
+        {
+          "title": "[CONTRACT] Orphaned types.rs module defines a stale, incompatible shadow of the contract's core types and is never compiled",
+          "url": "https://github.com/StayLitCodes/Vaultix/issues/743",
+          "author": "Cedarich",
+          "created_at": "2026-09-27T20:24:47Z"
+        },
+        {
+          "title": "An open buffer for a nonexistent `foo.rs` shadows `foo/mod.rs`, emptying the module",
+          "url": "https://github.com/rust-lang/rust-analyzer/issues/23366",
+          "author": "stephanemagnenat",
+          "created_at": "2026-09-15T11:46:58Z"
+        },
+        {
+          "title": "[SDK 58][iOS][expo-modules-core] `ExpoViewShadowNode::layout` segfaults when a `matchContents` host's subtree also touches shadow nodes (nested host, or reanimated)",
+          "url": "https://github.com/expo/expo/issues/50451",
+          "author": "ntocampos",
+          "created_at": "2026-09-21T15:49:23Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"dockerignore\" repo:moby/buildkit repo:docker/compose repo:moby/moby",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22dockerignore%22+repo%3Amoby%2Fbuildkit+repo%3Adocker%2Fcompose+repo%3Amoby%2Fmoby&per_page=40&sort=created&order=desc",
+      "retrieved_at": "2026-10-09T16:20:11.720105+00:00",
+      "total_count": 8,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "proposal: opt-in Git LFS support for Git sources",
+          "url": "https://github.com/moby/buildkit/issues/7241",
+          "author": "crazy-max",
+          "created_at": "2026-10-02T09:55:24Z"
+        },
+        {
+          "title": "staticfs: file walks include prefix siblings and break FollowPaths filtering",
+          "url": "https://github.com/moby/buildkit/issues/7222",
+          "author": "a3ylf",
+          "created_at": "2026-09-29T16:46:52Z"
+        },
+        {
+          "title": "CopyIgnoredFile goes silent for all files when the .dockerignore contains any negated pattern",
+          "url": "https://github.com/moby/buildkit/issues/7125",
+          "author": "saeedturk1969",
+          "created_at": "2026-09-06T15:32:09Z"
+        },
+        {
+          "title": "--mount=type=cache unexpectedly empty in parallel builds",
+          "url": "https://github.com/moby/buildkit/issues/7088",
+          "author": "ap-wtioit",
+          "created_at": "2026-08-27T11:46:13Z"
+        },
+        {
+          "title": "RUN cache doesn't take into account cache ID",
+          "url": "https://github.com/moby/buildkit/issues/7061",
+          "author": "dmytro-GL",
+          "created_at": "2026-08-21T15:07:53Z"
+        },
+        {
+          "title": "[BUG] `docker compose up --build` does not restart containers if image ID changes, making `docker compose images` fail",
+          "url": "https://github.com/docker/compose/issues/14014",
+          "author": "felixfontein",
+          "created_at": "2026-08-07T08:48:54Z"
+        },
+        {
+          "title": "[BUG] type=image volumes fail with \"No such image\" when the source image is already present locally",
+          "url": "https://github.com/docker/compose/issues/14005",
+          "author": "ricardobranco777",
+          "created_at": "2026-08-05T16:45:26Z"
+        },
+        {
+          "title": "[BUG] Always recreate container, even if the instructions haven't changed.",
+          "url": "https://github.com/docker/compose/issues/13944",
+          "author": "DJLebedev",
+          "created_at": "2026-07-16T10:38:46Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"registry\" \"lockfile\" repo:pnpm/pnpm repo:npm/cli repo:oven-sh/bun",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22registry%22+%22lockfile%22+repo%3Apnpm%2Fpnpm+repo%3Anpm%2Fcli+repo%3Aoven-sh%2Fbun&per_page=40&sort=created&order=desc",
+      "retrieved_at": "2026-10-09T16:20:16.139357+00:00",
+      "total_count": 208,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "[BUG] min-release-age-exclude is not honored during reify (npm ci / real installs)",
+          "url": "https://github.com/npm/cli/issues/10101",
+          "author": "seanmoghadam",
+          "created_at": "2026-10-09T10:23:35Z"
+        },
+        {
+          "title": "pnpm 12 cold-store install on macOS is 2–10x slower than pnpm 10/11 with the default `clone` import method (dir-clone cache)",
+          "url": "https://github.com/pnpm/pnpm/issues/16782",
+          "author": "Jdruwe",
+          "created_at": "2026-10-09T07:17:20Z"
+        },
+        {
+          "title": "pnpm 12 resolves a workspace optional peer to the registry package despite a workspace override",
+          "url": "https://github.com/pnpm/pnpm/issues/16706",
+          "author": "fengmk2",
+          "created_at": "2026-10-07T17:19:13Z"
+        },
+        {
+          "title": "Unexpected \"High-risk trust downgrade\" error",
+          "url": "https://github.com/pnpm/pnpm/issues/16689",
+          "author": "ThibaultVlacich",
+          "created_at": "2026-10-07T09:08:38Z"
+        },
+        {
+          "title": "12.10.0: config dependency verification enforces `minimumReleaseAge` before config-dependency settings load, so `minimumReleaseAgeExclude` supplied by a config dependency cannot exempt it",
+          "url": "https://github.com/pnpm/pnpm/issues/16660",
+          "author": "spencerbeggs",
+          "created_at": "2026-10-06T15:09:51Z"
+        },
+        {
+          "title": "Changing overrides fails when a peer dependency is resolved to an npm alias in the lockfile",
+          "url": "https://github.com/pnpm/pnpm/issues/16654",
+          "author": "yarokon",
+          "created_at": "2026-10-06T12:58:58Z"
+        },
+        {
+          "title": "install and dedupe disagree when registry metadata omits peerDependenciesMeta (default config since 11.28.1)",
+          "url": "https://github.com/pnpm/pnpm/issues/16615",
+          "author": "zachary-onix",
+          "created_at": "2026-10-05T19:55:20Z"
+        },
+        {
+          "title": "`pnpm publish` provenance from GitLab CI is rejected by npm (422): `invocation.parameters` missing from the SLSA v0.2 predicate",
+          "url": "https://github.com/pnpm/pnpm/issues/16551",
+          "author": "chez14",
+          "created_at": "2026-10-03T11:53:00Z"
+        },
+        {
+          "title": "fix(install): global remove leaves an unreachable optional dependency",
+          "url": "https://github.com/oven-sh/bun/issues/44511",
+          "author": "coygeek",
+          "created_at": "2026-10-03T04:25:33Z"
+        },
+        {
+          "title": "@pnpm/napi: ~200 MB higher peak RSS for the same install since 12.8.0 (Node-API path only)",
+          "url": "https://github.com/pnpm/pnpm/issues/16528",
+          "author": "davidfirst",
+          "created_at": "2026-10-02T18:52:02Z"
+        },
+        {
+          "title": "pnpm 12: an optional dependency that fails to fetch is skipped with no warning, and the summary counts it as added",
+          "url": "https://github.com/pnpm/pnpm/issues/16514",
+          "author": "amikofalvy",
+          "created_at": "2026-10-02T03:48:23Z"
+        },
+        {
+          "title": "pnpm 12 fails when a dependency of a platform-skipped optional package can't be resolved",
+          "url": "https://github.com/pnpm/pnpm/issues/16511",
+          "author": "everett1992",
+          "created_at": "2026-10-02T00:59:49Z"
+        },
+        {
+          "title": "minimumReleaseAge: cached metadata upgraded to the full document is downloaded again instead of revalidated with a 304",
+          "url": "https://github.com/pnpm/pnpm/issues/16506",
+          "author": "altaywtf",
+          "created_at": "2026-10-01T21:00:25Z"
+        },
+        {
+          "title": "`--offline` resolution parses every version of every package once the store has an index (since 12.8.0)",
+          "url": "https://github.com/pnpm/pnpm/issues/16495",
+          "author": "altaywtf",
+          "created_at": "2026-10-01T16:51:28Z"
+        },
+        {
+          "title": "performance: autoDedupe makes no-op lockfile updates resolve the whole graph",
+          "url": "https://github.com/pnpm/pnpm/issues/16458",
+          "author": "jamenh",
+          "created_at": "2026-10-01T02:16:10Z"
+        },
+        {
+          "title": "`pnpm install --frozen-lockfile` rejects a fresh lockfile when a workspace project's dependencies are all workspace links and it declares `dependenciesMeta`",
+          "url": "https://github.com/pnpm/pnpm/issues/16457",
+          "author": "tunglambk",
+          "created_at": "2026-10-01T01:25:38Z"
+        },
+        {
+          "title": "`bun update --latest` moves a package that a `catalog:` override pins, and the catalog entry keeps the old version",
+          "url": "https://github.com/oven-sh/bun/issues/44306",
+          "author": "robobun",
+          "created_at": "2026-09-30T12:44:57Z"
+        },
+        {
+          "title": "`bun update <alias>` right after a yarn.lock migration requests a wrong package name when the alias target is over 8 bytes",
+          "url": "https://github.com/oven-sh/bun/issues/44298",
+          "author": "robobun",
+          "created_at": "2026-09-30T11:07:46Z"
+        },
+        {
+          "title": "A new dependency follows an `npm:` alias that package.json dropped, with bun.lockb and package-lock.json and not with bun.lock",
+          "url": "https://github.com/oven-sh/bun/issues/44292",
+          "author": "robobun",
+          "created_at": "2026-09-30T08:52:45Z"
+        },
+        {
+          "title": "pnpm 12.8: no-op lockfile updates are ~3.5× slower",
+          "url": "https://github.com/pnpm/pnpm/issues/16418",
+          "author": "jamenh",
+          "created_at": "2026-09-30T04:42:09Z"
+        },
+        {
+          "title": "Unrelated workspace change moves an in-range direct dependency to a lower version (regression from v11)",
+          "url": "https://github.com/pnpm/pnpm/issues/16417",
+          "author": "mcharles-atlassian",
+          "created_at": "2026-09-30T03:42:14Z"
+        },
+        {
+          "title": "aliased dependencies aren't fetched correctly?",
+          "url": "https://github.com/pnpm/pnpm/issues/16386",
+          "author": "KTrain5169",
+          "created_at": "2026-09-29T13:26:41Z"
+        },
+        {
+          "title": "pnpm 12.4.2+: `pnpm dedupe` is not idempotent — `dedupe --check` fails right after `dedupe`",
+          "url": "https://github.com/pnpm/pnpm/issues/16356",
+          "author": "omril1",
+          "created_at": "2026-09-28T19:39:27Z"
+        },
+        {
+          "title": "pnpm 11 silently skips all workspace dependencies when their common repository root is /",
+          "url": "https://github.com/pnpm/pnpm/issues/16328",
+          "author": "dbogdan01",
+          "created_at": "2026-09-28T11:20:33Z"
+        },
+        {
+          "title": "`overrides` with an `npm:` alias is dropped when pnpm 12 re-resolves a locked dependency (resolves the real package instead)",
+          "url": "https://github.com/pnpm/pnpm/issues/16309",
+          "author": "sooo-s",
+          "created_at": "2026-09-28T05:02:47Z"
+        },
+        {
+          "title": "Pnpm v12 fails to install some scripts and packages in nuxtjs and vite plus monorepo:",
+          "url": "https://github.com/pnpm/pnpm/issues/16308",
+          "author": "destroyer22719",
+          "created_at": "2026-09-28T04:18:58Z"
+        },
+        {
+          "title": "Time-based resolution selects an immature fallback despite a mature matching version",
+          "url": "https://github.com/pnpm/pnpm/issues/16298",
+          "author": "BearCooder",
+          "created_at": "2026-09-27T21:36:58Z"
+        },
+        {
+          "title": "`--config.<setting>=<value>` is silently ignored by pnpm 12 for 79 settings it already supports",
+          "url": "https://github.com/pnpm/pnpm/issues/16276",
+          "author": "MRDOCTOROO",
+          "created_at": "2026-09-27T16:13:44Z"
+        },
+        {
+          "title": "pnpm 12: a files entry that names a file is dropped when the same field excludes its directory",
+          "url": "https://github.com/pnpm/pnpm/issues/16213",
+          "author": "nmb4",
+          "created_at": "2026-09-26T20:27:32Z"
+        },
+        {
+          "title": "pnpm install aborts on a single 80 GiB allocation when minimumReleaseAgeExclude contains version-union entries",
+          "url": "https://github.com/pnpm/pnpm/issues/15867",
+          "author": "wjingshan",
+          "created_at": "2026-09-26T05:03:18Z"
+        },
+        {
+          "title": "pnpm 12: a files-field exclusion does not prune the directory it names",
+          "url": "https://github.com/pnpm/pnpm/issues/15738",
+          "author": "nmb4",
+          "created_at": "2026-09-25T22:13:07Z"
+        },
+        {
+          "title": "[BUG] npm ci fails with architecture-related packages on lockfiles 11.17.0 and 11.16.0",
+          "url": "https://github.com/npm/cli/issues/10043",
+          "author": "JadamNGC",
+          "created_at": "2026-09-25T19:38:37Z"
+        },
+        {
+          "title": "`bun update <pkg>` does not re-resolve packages whose `$pkg` override changed; lock stays stale and `bun install` / `--frozen-lockfile` do not notice",
+          "url": "https://github.com/oven-sh/bun/issues/43975",
+          "author": "mirao",
+          "created_at": "2026-09-25T11:14:20Z"
+        },
+        {
+          "title": "The registry-lookup rename's changeset misstates its effect on `updateConfig` and publishes no release note",
+          "url": "https://github.com/pnpm/pnpm/issues/15620",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-25T00:18:14Z"
+        },
+        {
+          "title": "An `updateConfig` hook that omits `default` or `@jsr` from `registriesByScope` crashes the install with `Invalid URL`",
+          "url": "https://github.com/pnpm/pnpm/issues/15619",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-25T00:18:13Z"
+        },
+        {
+          "title": "`bun install` runs `node-gyp rebuild` even when package.json has `\"gypfile\": false`",
+          "url": "https://github.com/oven-sh/bun/issues/43903",
+          "author": "Sawmonabo",
+          "created_at": "2026-09-24T16:56:36Z"
+        },
+        {
+          "title": "Default ports are no longer stripped from tarball URLs in the lockfile (regression of pnpm/pnpm#10273)",
+          "url": "https://github.com/pnpm/pnpm/issues/15539",
+          "author": "minijus",
+          "created_at": "2026-09-24T11:19:52Z"
+        },
+        {
+          "title": "Lockfile failed supply-chain policy check with scoped registries",
+          "url": "https://github.com/pnpm/pnpm/issues/15530",
+          "author": "BenSawary",
+          "created_at": "2026-09-24T09:09:00Z"
+        },
+        {
+          "title": "v11: engineStrict ignores engines relaxed by a readPackage hook (ERR_PNPM_UNSUPPORTED_ENGINE); v12 honours it",
+          "url": "https://github.com/pnpm/pnpm/issues/15482",
+          "author": "altaywtf",
+          "created_at": "2026-09-24T04:18:54Z"
+        },
+        {
+          "title": "ci: live-registry smoke test fails on a socket reset with fetch retries disabled",
+          "url": "https://github.com/npm/cli/issues/10022",
+          "author": "reggi",
+          "created_at": "2026-09-23T19:26:30Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"dockerignore\" repo:docker/docs repo:docker/buildx repo:docker/docker-py repo:moby/patternmatcher",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22dockerignore%22+repo%3Adocker%2Fdocs+repo%3Adocker%2Fbuildx+repo%3Adocker%2Fdocker-py+repo%3Amoby%2Fpatternmatcher&per_page=40",
+      "retrieved_at": "2026-10-09T16:22:41.437018+00:00",
+      "total_count": 4,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": ".dockerignore matching ignores filename case on Linux",
+          "url": "https://github.com/docker/docker-py/issues/3450",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:53Z"
+        },
+        {
+          "title": ".dockerignore wildcard exceptions lose files inside excluded directories",
+          "url": "https://github.com/docker/docker-py/issues/3448",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:41Z"
+        },
+        {
+          "title": ".dockerignore reinclusion retains unrelated files in a glob-excluded directory",
+          "url": "https://github.com/docker/docker-py/issues/3449",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:44Z"
+        },
+        {
+          "title": "Buildx schduling on non-preffered builders",
+          "url": "https://github.com/docker/buildx/issues/4132",
+          "author": "hardillb",
+          "created_at": "2026-10-09T12:25:56Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"dockerignore\" in:title",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22dockerignore%22+in%3Atitle&per_page=40",
+      "retrieved_at": "2026-10-09T16:21:47.051552+00:00",
+      "total_count": 580,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "add .dockerignore",
+          "url": "https://github.com/LondheShubham153/django-notes-app/issues/170",
+          "author": "mraif777",
+          "created_at": "2026-09-24T14:54:44Z"
+        },
+        {
+          "title": "No .gitignore/.dockerignore",
+          "url": "https://github.com/MEdrum/DejaVault/issues/27",
+          "author": "MEdrum",
+          "created_at": "2026-10-08T08:37:14Z"
+        },
+        {
+          "title": "add this .dockerignore https://github.com/michaeltg17/Template.Api/blob/main/.dockerignore",
+          "url": "https://github.com/michaeltg17/DockerUI/issues/131",
+          "author": "michaeltg17",
+          "created_at": "2026-10-09T13:37:35Z"
+        },
+        {
+          "title": "Add a .dockerignore",
+          "url": "https://github.com/rvt9bx/dsan6700-hw1/issues/17",
+          "author": "rvt9bx",
+          "created_at": "2026-09-25T21:03:19Z"
+        },
+        {
+          "title": "[Chore] Add a .dockerignore",
+          "url": "https://github.com/prakhar1605/Opencollab-mcp/issues/65",
+          "author": "prakhar1605",
+          "created_at": "2026-09-30T16:35:24Z"
+        },
+        {
+          "title": "mediahub: add a .dockerignore",
+          "url": "https://github.com/knkCS/workflows/issues/71",
+          "author": "jiwanovski87",
+          "created_at": "2026-10-01T08:53:05Z"
+        },
+        {
+          "title": "Configure strict .gitignore and .dockerignore",
+          "url": "https://github.com/AureliOFF/hub-infra/issues/19",
+          "author": "AureliOFF",
+          "created_at": "2026-10-08T17:34:19Z"
+        },
+        {
+          "title": "Dockerfile de l'application + `.dockerignore`",
+          "url": "https://github.com/Calixteair/ai-jobs-docker/issues/33",
+          "author": "Calixteair",
+          "created_at": "2026-10-07T20:29:20Z"
+        },
+        {
+          "title": "Add a repo-root .dockerignore",
+          "url": "https://github.com/hmerrett/retro-hardware-database/issues/141",
+          "author": "theretroloft",
+          "created_at": "2026-10-08T11:18:56Z"
+        },
+        {
+          "title": "#3 Containerize: Dockerfiles and .dockerignore",
+          "url": "https://github.com/1sa1asdev/Hasta-la-vue-lta/issues/51",
+          "author": "1sa1asdev",
+          "created_at": "2026-10-08T08:39:13Z"
+        },
+        {
+          "title": "Criar .gitignore e .dockerignore",
+          "url": "https://github.com/zjooy/behavior-engineering/issues/13",
+          "author": "zjooy",
+          "created_at": "2026-09-23T00:04:15Z"
+        },
+        {
+          "title": ".dockerignore",
+          "url": "https://github.com/adolphpheonix7-creator/Evo-Tech-Kumbernetes-Platform/issues/8",
+          "author": "adolphpheonix7-creator",
+          "created_at": "2026-08-14T15:32:52Z"
+        },
+        {
+          "title": "Missing `.dockerignore`",
+          "url": "https://github.com/AgentPhone-AI/agentphone-mcp/issues/54",
+          "author": "rajarshidattapy",
+          "created_at": "2026-08-31T00:05:14Z"
+        },
+        {
+          "title": "[M7.2] Dockerfile.Worker + .dockerignore",
+          "url": "https://github.com/Inoori/FreshMart/issues/317",
+          "author": "Inoori",
+          "created_at": "2026-09-22T08:24:31Z"
+        },
+        {
+          "title": "Add Dockerfile, .dockerignore, and compose.yml",
+          "url": "https://github.com/normangw/entity-resolver/issues/6",
+          "author": "normangw",
+          "created_at": "2026-10-06T15:58:53Z"
+        },
+        {
+          "title": "dockerfile-lint: take .dockerignore into account",
+          "url": "https://github.com/basitalisandhu/dev-mcp-servers/issues/8",
+          "author": "basitalisandhu",
+          "created_at": "2026-10-04T13:02:30Z"
+        },
+        {
+          "title": ".dockerignore matching ignores filename case on Linux",
+          "url": "https://github.com/docker/docker-py/issues/3450",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:53Z"
+        },
+        {
+          "title": "add dockerignore and update license",
+          "url": "https://github.com/rokitalab/cbl-variant-analyses/issues/10",
+          "author": "rjcorb",
+          "created_at": "2026-09-18T19:19:12Z"
+        },
+        {
+          "title": "Add `.dockerignore`",
+          "url": "https://github.com/osamaninox/trail-replay/issues/33",
+          "author": "osamaninox",
+          "created_at": "2026-08-15T13:27:37Z"
+        },
+        {
+          "title": "Add .dockerignore file",
+          "url": "https://github.com/cristoferdi/Gym-Trainer-Backend/issues/76",
+          "author": "github-actions[bot]",
+          "created_at": "2026-08-29T06:21:21Z"
+        },
+        {
+          "title": "Missing .dockerignore and ungrouped Dependabot updates",
+          "url": "https://github.com/lucapalomba/carGPT/issues/257",
+          "author": "lucapalomba",
+          "created_at": "2026-09-27T19:27:13Z"
+        },
+        {
+          "title": "Add .dockerignore for the web and QVAC images",
+          "url": "https://github.com/BitPolito/bitcoin-academy/issues/209",
+          "author": "lucaosti",
+          "created_at": "2026-10-06T15:40:27Z"
+        },
+        {
+          "title": "Add `.dockerignore` files and fill gaps in `.gitignore`",
+          "url": "https://github.com/Ergane-Foundation/solstice/issues/18",
+          "author": "yash-agarwa-l",
+          "created_at": "2026-10-04T16:08:28Z"
+        },
+        {
+          "title": ".dockerignore wildcard exceptions lose files inside excluded directories",
+          "url": "https://github.com/docker/docker-py/issues/3448",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:41Z"
+        },
+        {
+          "title": "#17: Add .dockerignore to all microservice subdirectories",
+          "url": "https://github.com/YeamimHossainSajid/Veridian/issues/17",
+          "author": "YeamimHossainSajid",
+          "created_at": "2026-09-28T08:22:26Z"
+        },
+        {
+          "title": "Docker: Build-Kontexte mit passenden .dockerignore-Dateien begrenzen",
+          "url": "https://github.com/Tabsi1998/THE-LION_SQUAD-eSPORT-Webseite/issues/1050",
+          "author": "Tabsi1998",
+          "created_at": "2026-10-06T15:23:25Z"
+        },
+        {
+          "title": ".dockerignore",
+          "url": "https://github.com/Jadeiguess2009/Tantrums-bot/issues/1",
+          "author": "Jadeiguess2009",
+          "created_at": "2026-07-14T08:19:15Z"
+        },
+        {
+          "title": "Add a dockerignore entry for test artifacts",
+          "url": "https://github.com/TricklePay/tricklepay-backend/issues/400",
+          "author": "Glittersup",
+          "created_at": "2026-09-25T16:40:49Z"
+        },
+        {
+          "title": "chore(docker): .dockerignore and image hygiene",
+          "url": "https://github.com/jessiicamaru/task-management/issues/38",
+          "author": "jessiicamaru",
+          "created_at": "2026-09-19T11:43:19Z"
+        },
+        {
+          "title": "[Bounty: $50] Fix the six non-existent paths in `.dockerignore`",
+          "url": "https://github.com/benzospace-labs/benzo/issues/75",
+          "author": "horrmorr",
+          "created_at": "2026-10-07T21:45:24Z"
+        },
+        {
+          "title": "Match Docker .dockerignore semantics",
+          "url": "https://github.com/test-kitchen/docker-api-ng/issues/37",
+          "author": "damacus",
+          "created_at": "2026-08-28T20:03:20Z"
+        },
+        {
+          "title": "M0-26: Write Dockerfiles + .dockerignore",
+          "url": "https://github.com/sayfeldinn/exam-integrity-system/issues/13",
+          "author": "sayfeldinn",
+          "created_at": "2026-09-02T02:29:21Z"
+        },
+        {
+          "title": "Add dockerignore to keep secrets out of images",
+          "url": "https://github.com/Streampay-Org/StreamPay-Frontend/issues/1590",
+          "author": "greatest0fallt1me",
+          "created_at": "2026-09-27T10:49:08Z"
+        },
+        {
+          "title": "chore(docker): add .dockerignore to optimize container build context",
+          "url": "https://github.com/divmora/code-reviewer-ai-agent/issues/11",
+          "author": "ngoyal16",
+          "created_at": "2026-10-06T01:30:25Z"
+        },
+        {
+          "title": "chore(docker): add .dockerignore to optimize container build context",
+          "url": "https://github.com/divmora/aws-guardduty-archive-bot/issues/21",
+          "author": "ngoyal16",
+          "created_at": "2026-10-06T01:30:19Z"
+        },
+        {
+          "title": "Add .dockerignore",
+          "url": "https://github.com/Terminay/lessel/issues/5",
+          "author": "Terminay",
+          "created_at": "2026-07-15T12:47:32Z"
+        },
+        {
+          "title": "chore(docker): add .dockerignore to optimize container build context",
+          "url": "https://github.com/divmora/jules-ai-agent/issues/11",
+          "author": "ngoyal16",
+          "created_at": "2026-10-06T01:30:48Z"
+        },
+        {
+          "title": "Docker: монтирование init-*.sql и .dockerignore фронтенда (остаток #15)",
+          "url": "https://github.com/PlutoGr/TravelAgency/issues/49",
+          "author": "PlutoGr",
+          "created_at": "2026-10-04T09:34:12Z"
+        },
+        {
+          "title": "Put more things back into .dockerignore",
+          "url": "https://github.com/opendatacube/datacube-explorer/issues/1248",
+          "author": "omad",
+          "created_at": "2026-09-07T00:19:16Z"
+        },
+        {
+          "title": ".dockerignore reinclusion retains unrelated files in a glob-excluded directory",
+          "url": "https://github.com/docker/docker-py/issues/3449",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:44Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"registry\" \"lockfile\" \"url\" repo:npm/cli",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22registry%22+%22lockfile%22+%22url%22+repo%3Anpm%2Fcli&per_page=10&sort=comments&order=desc",
+      "retrieved_at": "2026-10-09T16:24:19.742967+00:00",
+      "total_count": 6,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "[BUG] npm ci fails with architecture-related packages on lockfiles 11.17.0 and 11.16.0",
+          "url": "https://github.com/npm/cli/issues/10043",
+          "author": "JadamNGC",
+          "created_at": "2026-09-25T19:38:37Z"
+        },
+        {
+          "title": "[BUG] npm audit fails: advisories/bulk returns a gzip body with no Content-Encoding header",
+          "url": "https://github.com/npm/cli/issues/9804",
+          "author": "jakobarsement",
+          "created_at": "2026-07-26T06:21:51Z"
+        },
+        {
+          "title": "[BUG] `--dry-run` fails with EALLOWREMOTE on registry tarballs for packages that declare bundleDependencies",
+          "url": "https://github.com/npm/cli/issues/9800",
+          "author": "kelnei",
+          "created_at": "2026-07-25T06:24:32Z"
+        },
+        {
+          "title": "[BUG] `npm install` ignores Git SHA changes",
+          "url": "https://github.com/npm/cli/issues/9966",
+          "author": "demian-gg",
+          "created_at": "2026-09-12T16:21:51Z"
+        },
+        {
+          "title": "ci: live-registry smoke test fails on a socket reset with fetch retries disabled",
+          "url": "https://github.com/npm/cli/issues/10022",
+          "author": "reggi",
+          "created_at": "2026-09-23T19:26:30Z"
+        },
+        {
+          "title": "[BUG] Published npm manifest references unshipped workspaces and devDependencies, so npm cannot install/audit inside its own package directory",
+          "url": "https://github.com/npm/cli/issues/9949",
+          "author": "thossullivan",
+          "created_at": "2026-09-03T22:20:06Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"registry\" \"resolved\" repo:npm/cli repo:pnpm/pnpm",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22registry%22+%22resolved%22+repo%3Anpm%2Fcli+repo%3Apnpm%2Fpnpm&per_page=50&sort=created&order=desc",
+      "retrieved_at": "2026-10-09T16:20:52.662528+00:00",
+      "total_count": 104,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "12.10.0: config dependency verification enforces `minimumReleaseAge` before config-dependency settings load, so `minimumReleaseAgeExclude` supplied by a config dependency cannot exempt it",
+          "url": "https://github.com/pnpm/pnpm/issues/16660",
+          "author": "spencerbeggs",
+          "created_at": "2026-10-06T15:09:51Z"
+        },
+        {
+          "title": "Changing overrides fails when a peer dependency is resolved to an npm alias in the lockfile",
+          "url": "https://github.com/pnpm/pnpm/issues/16654",
+          "author": "yarokon",
+          "created_at": "2026-10-06T12:58:58Z"
+        },
+        {
+          "title": "@pnpm/napi: ~200 MB higher peak RSS for the same install since 12.8.0 (Node-API path only)",
+          "url": "https://github.com/pnpm/pnpm/issues/16528",
+          "author": "davidfirst",
+          "created_at": "2026-10-02T18:52:02Z"
+        },
+        {
+          "title": "pnpm 12: an optional dependency that fails to fetch is skipped with no warning, and the summary counts it as added",
+          "url": "https://github.com/pnpm/pnpm/issues/16514",
+          "author": "amikofalvy",
+          "created_at": "2026-10-02T03:48:23Z"
+        },
+        {
+          "title": "pnpm 12 fails when a dependency of a platform-skipped optional package can't be resolved",
+          "url": "https://github.com/pnpm/pnpm/issues/16511",
+          "author": "everett1992",
+          "created_at": "2026-10-02T00:59:49Z"
+        },
+        {
+          "title": "`pnpm install --frozen-lockfile` rejects a fresh lockfile when a workspace project's dependencies are all workspace links and it declares `dependenciesMeta`",
+          "url": "https://github.com/pnpm/pnpm/issues/16457",
+          "author": "tunglambk",
+          "created_at": "2026-10-01T01:25:38Z"
+        },
+        {
+          "title": "aliased dependencies aren't fetched correctly?",
+          "url": "https://github.com/pnpm/pnpm/issues/16386",
+          "author": "KTrain5169",
+          "created_at": "2026-09-29T13:26:41Z"
+        },
+        {
+          "title": "pnpm 11 silently skips all workspace dependencies when their common repository root is /",
+          "url": "https://github.com/pnpm/pnpm/issues/16328",
+          "author": "dbogdan01",
+          "created_at": "2026-09-28T11:20:33Z"
+        },
+        {
+          "title": "`overrides` with an `npm:` alias is dropped when pnpm 12 re-resolves a locked dependency (resolves the real package instead)",
+          "url": "https://github.com/pnpm/pnpm/issues/16309",
+          "author": "sooo-s",
+          "created_at": "2026-09-28T05:02:47Z"
+        },
+        {
+          "title": "Pnpm v12 fails to install some scripts and packages in nuxtjs and vite plus monorepo:",
+          "url": "https://github.com/pnpm/pnpm/issues/16308",
+          "author": "destroyer22719",
+          "created_at": "2026-09-28T04:18:58Z"
+        },
+        {
+          "title": "pnpm install aborts on a single 80 GiB allocation when minimumReleaseAgeExclude contains version-union entries",
+          "url": "https://github.com/pnpm/pnpm/issues/15867",
+          "author": "wjingshan",
+          "created_at": "2026-09-26T05:03:18Z"
+        },
+        {
+          "title": "[BUG] npm ci fails with architecture-related packages on lockfiles 11.17.0 and 11.16.0",
+          "url": "https://github.com/npm/cli/issues/10043",
+          "author": "JadamNGC",
+          "created_at": "2026-09-25T19:38:37Z"
+        },
+        {
+          "title": "The registry-lookup rename's changeset misstates its effect on `updateConfig` and publishes no release note",
+          "url": "https://github.com/pnpm/pnpm/issues/15620",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-25T00:18:14Z"
+        },
+        {
+          "title": "v11: engineStrict ignores engines relaxed by a readPackage hook (ERR_PNPM_UNSUPPORTED_ENGINE); v12 honours it",
+          "url": "https://github.com/pnpm/pnpm/issues/15482",
+          "author": "altaywtf",
+          "created_at": "2026-09-24T04:18:54Z"
+        },
+        {
+          "title": "Repository-controlled `userAgent` resolves environment variables into an outbound request header",
+          "url": "https://github.com/pnpm/pnpm/issues/15415",
+          "author": "zkochan",
+          "created_at": "2026-09-23T20:42:56Z"
+        },
+        {
+          "title": "ci: track root causes and restore CI on latest and release/v11",
+          "url": "https://github.com/npm/cli/issues/10027",
+          "author": "reggi",
+          "created_at": "2026-09-23T19:27:36Z"
+        },
+        {
+          "title": "[Windows] autoInstallPeers: false makes native add/remove peak ~5 GB and abort (0xC0000409) on an 8 GB machine",
+          "url": "https://github.com/pnpm/pnpm/issues/15362",
+          "author": "ChongCyrus",
+          "created_at": "2026-09-23T12:26:59Z"
+        },
+        {
+          "title": "--prod / --dev still include a devDependency that satisfies a prod dependency's peer (install, fetch, deploy, list, why, licenses, sbom)",
+          "url": "https://github.com/pnpm/pnpm/issues/15344",
+          "author": "KuSh",
+          "created_at": "2026-09-23T07:35:13Z"
+        },
+        {
+          "title": "`npm audit signatures` does not report how many packages it skipped for want of registry keys",
+          "url": "https://github.com/npm/cli/issues/10018",
+          "author": "nortesoftware",
+          "created_at": "2026-09-23T05:21:24Z"
+        },
+        {
+          "title": "`pnpm dedupe` is significantly slower in v12 than v11 when there are many convergence overrides and a slow registry",
+          "url": "https://github.com/pnpm/pnpm/issues/15175",
+          "author": "astegmaier",
+          "created_at": "2026-09-20T19:08:58Z"
+        },
+        {
+          "title": "pnpm audit --fix=update silently skips npm-aliased dependencies",
+          "url": "https://github.com/pnpm/pnpm/issues/15155",
+          "author": "zkochan",
+          "created_at": "2026-09-20T09:44:38Z"
+        },
+        {
+          "title": "Request for npm 12 (re-)submission to Node.js `main` branch",
+          "url": "https://github.com/npm/cli/issues/9997",
+          "author": "MikeMcC399",
+          "created_at": "2026-09-18T11:25:29Z"
+        },
+        {
+          "title": "A custom fetch done during resolution is filed under an identity the install pass does not derive, so the hook runs twice",
+          "url": "https://github.com/pnpm/pnpm/issues/15025",
+          "author": "zkochan",
+          "created_at": "2026-09-17T14:31:45Z"
+        },
+        {
+          "title": "pnpm 12: a custom resolver that omits the optional manifest installs the package without its dependencies",
+          "url": "https://github.com/pnpm/pnpm/issues/15000",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-17T02:40:00Z"
+        },
+        {
+          "title": "pnpm setup writes %PNPM_HOME%\\bin into the user Path, which does not resolve in Windows SSH sessions",
+          "url": "https://github.com/pnpm/pnpm/issues/14975",
+          "author": "kwrkb",
+          "created_at": "2026-09-16T14:05:18Z"
+        },
+        {
+          "title": "pnpm v12: Cargo.lock written for a custom cargo.indexUrl is rejected by cargo --locked",
+          "url": "https://github.com/pnpm/pnpm/issues/14961",
+          "author": "zkochan",
+          "created_at": "2026-09-16T11:13:15Z"
+        },
+        {
+          "title": "Python in a real monorepo: eight popular pnpm+Python repos, none of them install",
+          "url": "https://github.com/pnpm/pnpm/issues/14945",
+          "author": "zkochan",
+          "created_at": "2026-09-16T08:10:13Z"
+        },
+        {
+          "title": "pnpm v12: vite-plus Cargo adoption blocked by versionless git crates and git lockfile resolution",
+          "url": "https://github.com/pnpm/pnpm/issues/14944",
+          "author": "zkochan",
+          "created_at": "2026-09-16T07:54:48Z"
+        },
+        {
+          "title": "pnpm deploy writes a peer-qualified lockfile key as the dependency's version specifier instead of normalizing it",
+          "url": "https://github.com/pnpm/pnpm/issues/14873",
+          "author": "manosbatsis",
+          "created_at": "2026-09-13T12:57:50Z"
+        },
+        {
+          "title": "[BUG] `npm install` ignores Git SHA changes",
+          "url": "https://github.com/npm/cli/issues/9966",
+          "author": "demian-gg",
+          "created_at": "2026-09-12T16:21:51Z"
+        },
+        {
+          "title": "Python: support portable frozen locks without kernel-only invalidation",
+          "url": "https://github.com/pnpm/pnpm/issues/14843",
+          "author": "benpsnyder",
+          "created_at": "2026-09-11T22:35:31Z"
+        },
+        {
+          "title": "pnpr: peer-only project fails with `ERR_PNPM_OUTDATED_LOCKFILE` while direct pnpm install succeeds",
+          "url": "https://github.com/pnpm/pnpm/issues/14833",
+          "author": "nekomeowww",
+          "created_at": "2026-09-11T12:37:28Z"
+        },
+        {
+          "title": "Deduplicate Git fetches for subdirectory packages from the same repository and commit",
+          "url": "https://github.com/pnpm/pnpm/issues/14725",
+          "author": "AdrianDuan",
+          "created_at": "2026-09-09T06:41:03Z"
+        },
+        {
+          "title": "`updateConfig` only sees `pnpm-workspace.yaml`, so `.npmrc`, env, and CLI settings are invisible to it",
+          "url": "https://github.com/pnpm/pnpm/issues/14676",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-08T01:39:02Z"
+        },
+        {
+          "title": "Supply-chain policy verification fetches `@jsr/*` packuments from the default registry instead of the `@jsr` scope registry (ERR_PNPM_META_FETCH_FAIL)",
+          "url": "https://github.com/pnpm/pnpm/issues/14649",
+          "author": "fujikky",
+          "created_at": "2026-09-07T06:07:41Z"
+        },
+        {
+          "title": "[BUG] Published npm manifest references unshipped workspaces and devDependencies, so npm cannot install/audit inside its own package directory",
+          "url": "https://github.com/npm/cli/issues/9949",
+          "author": "thossullivan",
+          "created_at": "2026-09-03T22:20:06Z"
+        },
+        {
+          "title": "Regression in 12.3.0: bin shim baked as 'exec node <target>' before native binary replaces the target, breaking packageManager delegation",
+          "url": "https://github.com/pnpm/pnpm/issues/14502",
+          "author": "ruchernchong",
+          "created_at": "2026-09-03T12:35:26Z"
+        },
+        {
+          "title": "Registries without signatures cannot be used if registry.npmjs.org is unavailable",
+          "url": "https://github.com/pnpm/pnpm/issues/14483",
+          "author": "bartlangelaan",
+          "created_at": "2026-09-02T21:34:26Z"
+        },
+        {
+          "title": "PNPM 12 on linux ignores `/etc/resolv.conf` and falls back to public DNS when an option uses underscores",
+          "url": "https://github.com/pnpm/pnpm/issues/14469",
+          "author": "roysandrew",
+          "created_at": "2026-09-02T13:51:48Z"
+        },
+        {
+          "title": "pnpr panics and exits on its first resolve (security-framework policy.rs:17, macOS)",
+          "url": "https://github.com/pnpm/pnpm/issues/14461",
+          "author": "spencerbeggs",
+          "created_at": "2026-09-02T12:42:01Z"
+        },
+        {
+          "title": "pnpm 12: `pnpm add` fails for local paths, tarballs, and URLs — aliasless specifiers are resolved as registry names",
+          "url": "https://github.com/pnpm/pnpm/issues/14437",
+          "author": "christopher-buss",
+          "created_at": "2026-09-01T23:10:35Z"
+        },
+        {
+          "title": "Rust `pnpm docs` ignores requested package versions",
+          "url": "https://github.com/pnpm/pnpm/issues/14428",
+          "author": "Stanzilla",
+          "created_at": "2026-09-01T17:27:02Z"
+        },
+        {
+          "title": "pnpm 12 preserves quotes around interpolated .npmrc auth tokens",
+          "url": "https://github.com/pnpm/pnpm/issues/14427",
+          "author": "tjamesmac",
+          "created_at": "2026-09-01T16:37:41Z"
+        },
+        {
+          "title": "`pnpm self-update` doesn't respect tags?",
+          "url": "https://github.com/pnpm/pnpm/issues/14345",
+          "author": "brc-dd",
+          "created_at": "2026-08-30T07:00:15Z"
+        },
+        {
+          "title": "pnpm 12 never applies `patchedDependencies` to a git-hosted dependency",
+          "url": "https://github.com/pnpm/pnpm/issues/14273",
+          "author": "edflips",
+          "created_at": "2026-08-28T11:32:40Z"
+        },
+        {
+          "title": "[v12] PNPM eats previous terminal lines, fails to stay up to date & fails to install global dependencies",
+          "url": "https://github.com/pnpm/pnpm/issues/14270",
+          "author": "EDM115",
+          "created_at": "2026-08-28T07:12:47Z"
+        },
+        {
+          "title": "lockfile update is slow on pnpm v12, and even OOMs on pnpm v11",
+          "url": "https://github.com/pnpm/pnpm/issues/14151",
+          "author": "jamenh",
+          "created_at": "2026-08-25T06:47:32Z"
+        },
+        {
+          "title": "[BUG] A user/local .npmrc allow-scripts setting is forwarded to an inner npm install spawned by npm run-script and fails with EALLOWSCRIPTS",
+          "url": "https://github.com/npm/cli/issues/9912",
+          "author": "VariableVince",
+          "created_at": "2026-08-24T00:02:13Z"
+        },
+        {
+          "title": "Remaining TS CLI features and settings not yet in the Rust CLI",
+          "url": "https://github.com/pnpm/pnpm/issues/14101",
+          "author": "zkochan",
+          "created_at": "2026-08-23T10:59:06Z"
+        },
+        {
+          "title": "pacquet: `update <pkg>@<tag>` writes the tag into package.json instead of the resolved version",
+          "url": "https://github.com/pnpm/pnpm/issues/14092",
+          "author": "zkochan",
+          "created_at": "2026-08-23T00:20:01Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"shadow\" repo:python/cpython repo:pytest-dev/pytest repo:astral-sh/ruff repo:astral-sh/uv",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22shadow%22+repo%3Apython%2Fcpython+repo%3Apytest-dev%2Fpytest+repo%3Aastral-sh%2Fruff+repo%3Aastral-sh%2Fuv&per_page=40&sort=created&order=desc",
+      "retrieved_at": "2026-10-09T16:20:12.529987+00:00",
+      "total_count": 29,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "`Py_MIN()`, `Py_MAX()` and `Py_ABS()`  cause C compatibility regressions",
+          "url": "https://github.com/python/cpython/issues/158942",
+          "author": "lpyu001",
+          "created_at": "2026-10-06T23:45:32Z"
+        },
+        {
+          "title": "Module __getattr__ shadows a module's own lazy imports",
+          "url": "https://github.com/python/cpython/issues/158824",
+          "author": "brittanyrey",
+          "created_at": "2026-10-05T03:23:18Z"
+        },
+        {
+          "title": "AddressSanitizer: global-buffer-overflow `Modules/_decimal/_decimal.c:798:37` in `signaldict_richcompare`",
+          "url": "https://github.com/python/cpython/issues/158063",
+          "author": "YuanchengJiang",
+          "created_at": "2026-09-24T09:26:08Z"
+        },
+        {
+          "title": "uaf in aiter()",
+          "url": "https://github.com/python/cpython/issues/158033",
+          "author": "djarfluka",
+          "created_at": "2026-09-23T21:17:59Z"
+        },
+        {
+          "title": "uaf in _elementtree Element.iter(tag)",
+          "url": "https://github.com/python/cpython/issues/158032",
+          "author": "djarfluka",
+          "created_at": "2026-09-23T21:16:15Z"
+        },
+        {
+          "title": "uaf of it_sentinel in callable_iterator.__next__",
+          "url": "https://github.com/python/cpython/issues/158031",
+          "author": "djarfluka",
+          "created_at": "2026-09-23T20:36:32Z"
+        },
+        {
+          "title": "`install.sh` unresolved `$XDG_DATA_HOME/../bin` causes false \"shadowed by other commands\" warning and unnecessary rc-file edits",
+          "url": "https://github.com/astral-sh/uv/issues/21837",
+          "author": "krishdesai7",
+          "created_at": "2026-09-19T16:38:09Z"
+        },
+        {
+          "title": "Specify skip= parameters to pdb.Pdb from command line or .pdbrc",
+          "url": "https://github.com/python/cpython/issues/157777",
+          "author": "Delengowski",
+          "created_at": "2026-09-18T23:35:28Z"
+        },
+        {
+          "title": "`lazy import a.b as c` resolves `b` as an attribute of `a` instead of importing the module `a.b`",
+          "url": "https://github.com/python/cpython/issues/157757",
+          "author": "grgalex",
+          "created_at": "2026-09-18T14:51:53Z"
+        },
+        {
+          "title": "`self-assigning-variable` - option to allow reassignment with type annotation",
+          "url": "https://github.com/astral-sh/ruff/issues/28688",
+          "author": "DetachHead",
+          "created_at": "2026-09-18T06:23:31Z"
+        },
+        {
+          "title": "Provide a canonical, declarative mechanism for import redirects (and their reverse resolution)",
+          "url": "https://github.com/python/cpython/issues/157524",
+          "author": "jaraco",
+          "created_at": "2026-09-14T20:03:45Z"
+        },
+        {
+          "title": "io.TextIOWrapper UAF triggered by readline()",
+          "url": "https://github.com/python/cpython/issues/157364",
+          "author": "djarfluka",
+          "created_at": "2026-09-12T12:53:21Z"
+        },
+        {
+          "title": "Heap UAF in io.TextIOWrapper read path via reentrant detach()",
+          "url": "https://github.com/python/cpython/issues/157363",
+          "author": "djarfluka",
+          "created_at": "2026-09-12T12:50:12Z"
+        },
+        {
+          "title": "Heap-buffer-overflow in the `hz` incremental decoder on a trailing `~`",
+          "url": "https://github.com/python/cpython/issues/157325",
+          "author": "djarfluka",
+          "created_at": "2026-09-11T15:03:15Z"
+        },
+        {
+          "title": "API to get a test's fixture definitions during parametrization",
+          "url": "https://github.com/pytest-dev/pytest/issues/14991",
+          "author": "tjkuson",
+          "created_at": "2026-09-08T12:22:38Z"
+        },
+        {
+          "title": "C API: Detect buffer overflow in PyBytesWriter",
+          "url": "https://github.com/python/cpython/issues/156939",
+          "author": "vstinner",
+          "created_at": "2026-09-04T14:12:17Z"
+        },
+        {
+          "title": "regression in analyze regarding stdlib shadowing with PEP420 packages",
+          "url": "https://github.com/astral-sh/ruff/issues/28274",
+          "author": "emillon",
+          "created_at": "2026-09-03T12:01:10Z"
+        },
+        {
+          "title": "UAF in json",
+          "url": "https://github.com/python/cpython/issues/156859",
+          "author": "chongwick",
+          "created_at": "2026-09-02T21:42:36Z"
+        },
+        {
+          "title": "Compiler crash: inlined comprehensions overflow `_PyCfgExceptStack`, bypassing the `u_nfblocks` block-nesting limit",
+          "url": "https://github.com/python/cpython/issues/156091",
+          "author": "kid-lxy",
+          "created_at": "2026-08-20T09:43:01Z"
+        },
+        {
+          "title": "Add rule to keep rule names in configuration sorted",
+          "url": "https://github.com/astral-sh/ruff/issues/27925",
+          "author": "Daverball",
+          "created_at": "2026-08-20T07:23:02Z"
+        },
+        {
+          "title": "heap buffer overflow",
+          "url": "https://github.com/python/cpython/issues/156075",
+          "author": "chongwick",
+          "created_at": "2026-08-19T23:56:31Z"
+        },
+        {
+          "title": "Harmonize parameter names in the time module documentation and docstrings",
+          "url": "https://github.com/python/cpython/issues/155787",
+          "author": "serhiy-storchaka",
+          "created_at": "2026-08-14T12:07:31Z"
+        },
+        {
+          "title": "Specialize calls to inherited `list.append` on list subclasses",
+          "url": "https://github.com/python/cpython/issues/155456",
+          "author": "marinelay",
+          "created_at": "2026-08-10T05:29:08Z"
+        },
+        {
+          "title": "Docs: F811 (redefined-while-unused) silently skips names matching dummy-variable-rgx — every `_private` name by default",
+          "url": "https://github.com/astral-sh/ruff/issues/27411",
+          "author": "MoreAllLess",
+          "created_at": "2026-08-02T02:26:22Z"
+        },
+        {
+          "title": "Add x86_64 Shadow Stack support for Linux",
+          "url": "https://github.com/python/cpython/issues/154820",
+          "author": "submachine",
+          "created_at": "2026-07-28T14:07:46Z"
+        },
+        {
+          "title": "Fix for RUF105/RUF106 removes error suppression comment when reformatting",
+          "url": "https://github.com/astral-sh/ruff/issues/27156",
+          "author": "bastimeyer",
+          "created_at": "2026-07-24T13:06:09Z"
+        },
+        {
+          "title": "sqlite3.Connection.iterdump() produces an unrestorable dump for a populated virtual table",
+          "url": "https://github.com/python/cpython/issues/153729",
+          "author": "tonghuaroot",
+          "created_at": "2026-07-15T01:26:43Z"
+        },
+        {
+          "title": "crossinterp.c: Use-after-free + leaked exception + shadowed variable",
+          "url": "https://github.com/python/cpython/issues/153664",
+          "author": "aisk",
+          "created_at": "2026-07-13T14:59:16Z"
+        },
+        {
+          "title": "Consider broadening `_asyncio` `_call_soon` fast path beyond exact built-in loop types",
+          "url": "https://github.com/python/cpython/issues/153534",
+          "author": "KRRT7",
+          "created_at": "2026-07-10T23:10:53Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"consider renaming\" \"py\"",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22consider+renaming%22+%22py%22&per_page=40",
+      "retrieved_at": "2026-10-09T16:22:51.942479+00:00",
+      "total_count": 265,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "Consider renaming FeedbackEvent.subject to scope (needs its own ADR)",
+          "url": "https://github.com/leonapivato/ai-assistant/issues/688",
+          "author": "leonapivato",
+          "created_at": "2026-08-04T16:44:25Z"
+        },
+        {
+          "title": "Consider renaming `last_price_date` to `price_anchor_date` for live quotes, or documenting the dual meaning in the API schema, to prevent future consumer confusion.",
+          "url": "https://github.com/leonarduk/allotmint/issues/9007",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-04T06:08:24Z"
+        },
+        {
+          "title": "[Security/low] Non-admin `refresh` can bring forward an already-due automatic credit run",
+          "url": "https://github.com/purcell-lab/ha-bsv-settlement/issues/119",
+          "author": "purcell-lab",
+          "created_at": "2026-10-06T22:46:24Z"
+        },
+        {
+          "title": "batched_extract_inferences processes sequentially despite implying batched call",
+          "url": "https://github.com/ArhamBafna/Candidate_Intelligence_Platform/issues/53",
+          "author": "ArhamBafna",
+          "created_at": "2026-09-18T01:42:45Z"
+        },
+        {
+          "title": "Policy actions follow-ups: reports honour action, escalation counting, turn-block fallback, contract gaps",
+          "url": "https://github.com/calliopeai/zentinelle/issues/413",
+          "author": "ragelink",
+          "created_at": "2026-09-23T19:39:18Z"
+        },
+        {
+          "title": "Docstring of `op_importer.main` describes behaviour it no longer has",
+          "url": "https://github.com/open-energy-transition/op_importer/issues/20",
+          "author": "willu47",
+          "created_at": "2026-10-07T20:23:51Z"
+        },
+        {
+          "title": "fix(parsers): tidal volume units differ by import source",
+          "url": "https://github.com/wpfleger96/SNORE/issues/345",
+          "author": "wpfleger96",
+          "created_at": "2026-10-02T17:17:04Z"
+        },
+        {
+          "title": "refactor(runtime): rename DockerRunnerAdapter to a substrate-agnostic name (spun out of #1296)",
+          "url": "https://github.com/Toloka/tolokaforge/issues/1325",
+          "author": "CiroGamboa",
+          "created_at": "2026-08-27T15:42:57Z"
+        },
+        {
+          "title": "Font tooling: build a clean-room deterministic open-font -> PGF converter with reproducible provenance",
+          "url": "https://github.com/Jstar269/nakagawa-recomp/issues/313",
+          "author": "Jstar269",
+          "created_at": "2026-09-21T04:07:56Z"
+        },
+        {
+          "title": "comware_local_user: is not idempotent",
+          "url": "https://github.com/H3C/h3c_open.comware/issues/10",
+          "author": "swsatoshi",
+          "created_at": "2026-09-23T01:52:31Z"
+        },
+        {
+          "title": "chore: reconcile test suite naming and dead infra (test_geospacial vs test_geospatial, unused Modal wiring, .env.1p TODO)",
+          "url": "https://github.com/Leosforge-ai/maritime-pipeline-v2/issues/11",
+          "author": "lharaujo",
+          "created_at": "2026-07-25T21:31:24Z"
+        },
+        {
+          "title": "Paper title: align with the bench name (Business Bench)",
+          "url": "https://github.com/erphq/business-bench/issues/5",
+          "author": "protosphinx",
+          "created_at": "2026-09-18T01:43:01Z"
+        },
+        {
+          "title": "unable to run example",
+          "url": "https://github.com/marketcalls/openchart/issues/15",
+          "author": "sudhakarsi",
+          "created_at": "2026-07-10T11:10:27Z"
+        },
+        {
+          "title": "[CHORE]: url_to_markdown_server — migrate from standalone fastmcp to mcp>=2,<3 MCPServer",
+          "url": "https://github.com/IBM/contextforge-examples/issues/34",
+          "author": "jonpspri",
+          "created_at": "2026-08-24T10:05:55Z"
+        },
+        {
+          "title": "[CHORE]: mcp-rss-search — migrate from standalone fastmcp to mcp>=2,<3 MCPServer",
+          "url": "https://github.com/IBM/contextforge-examples/issues/38",
+          "author": "jonpspri",
+          "created_at": "2026-08-24T10:05:56Z"
+        },
+        {
+          "title": "[CHORE]: output_schema_test_server — migrate from standalone fastmcp to mcp>=2,<3 MCPServer",
+          "url": "https://github.com/IBM/contextforge-examples/issues/32",
+          "author": "jonpspri",
+          "created_at": "2026-08-24T10:05:55Z"
+        },
+        {
+          "title": "[CHORE]: graphviz_server — migrate from standalone fastmcp to mcp>=2,<3 MCPServer",
+          "url": "https://github.com/IBM/contextforge-examples/issues/33",
+          "author": "jonpspri",
+          "created_at": "2026-08-24T10:05:55Z"
+        },
+        {
+          "title": "Circular Import Error: cannot import name 'router' from 'xhttp_transport' on Render Deploy",
+          "url": "https://github.com/luffy-sh-op/LUFFY_PANEL/issues/11",
+          "author": "mrwcom",
+          "created_at": "2026-08-04T16:24:30Z"
+        },
+        {
+          "title": "Public-repo hygiene: one-off scripts & personal text files are publicly visible",
+          "url": "https://github.com/ejnburrows-rgb/VD-/issues/31",
+          "author": "ejnburrows-rgb",
+          "created_at": "2026-07-27T23:55:42Z"
+        },
+        {
+          "title": "[Bug]: Sample configs, install guides and the Helm chart ship `message_capacity: 500`, which is characters, so every turn triggers a short-term summary",
+          "url": "https://github.com/MemMachine/MemMachine/issues/1772",
+          "author": "wanghy73",
+          "created_at": "2026-10-06T20:43:34Z"
+        },
+        {
+          "title": "i18n: Brazilian Portuguese (pt-BR) as an overlay on the pt-PT locale",
+          "url": "https://github.com/dentalpin/dentalpin/issues/509",
+          "author": "martinezsalmeron",
+          "created_at": "2026-09-25T10:34:04Z"
+        },
+        {
+          "title": "RLVR explode-history drops free-shape entry counts (review feedback, blame) — affirm learner consumption shape + two count-posture choices",
+          "url": "https://github.com/marekpal97/thinkweave/issues/82",
+          "author": "marekpal97",
+          "created_at": "2026-07-18T19:34:31Z"
+        },
+        {
+          "title": "chore(reaper): implement real MIDI track insertion in export_with_markers",
+          "url": "https://github.com/fsecada01/midi-drums/issues/65",
+          "author": "fsecada01",
+          "created_at": "2026-08-22T15:06:20Z"
+        },
+        {
+          "title": "CI Failure Diagnosis: .github/workflows/ci.yml #54",
+          "url": "https://github.com/tharindra0622-sys/gha-demo/issues/63",
+          "author": "github-actions[bot]",
+          "created_at": "2026-08-27T07:55:12Z"
+        },
+        {
+          "title": "Address non-BIDS filenames",
+          "url": "https://github.com/ME-ICA/tedana/issues/1474",
+          "author": "tsalo",
+          "created_at": "2026-07-19T13:47:27Z"
+        },
+        {
+          "title": "feat(ml): add ENTSO-E outage documents (A77/A80/A78) as the outage source for DE, NL, BE and FR",
+          "url": "https://github.com/woopstar/open_spot_forecast/issues/138",
+          "author": "woopstar",
+          "created_at": "2026-10-02T19:38:56Z"
+        },
+        {
+          "title": "global_energy_fixer postblock (gen2) only supports explicit up/down fluxes — no net-flux option, and docs are gen1-only",
+          "url": "https://github.com/NCAR/miles-credit/issues/467",
+          "author": "kjmayer",
+          "created_at": "2026-07-28T16:21:29Z"
+        },
+        {
+          "title": "Fitted-attribute docs are wrong: inertia_ is higher-is-better, total_log_lik_ includes categorical term",
+          "url": "https://github.com/ahfoss/scikit-kamila/issues/21",
+          "author": "ahfoss",
+          "created_at": "2026-09-26T04:57:01Z"
+        },
+        {
+          "title": "mold finalize: no route from an explicit user override to a ready pointer after the third failed taste verdict",
+          "url": "https://github.com/paulnsorensen/easy-cheese/issues/745",
+          "author": "paulnsorensen",
+          "created_at": "2026-10-04T00:40:46Z"
+        },
+        {
+          "title": "refactor: make vibe-sync stack-agnostic — introduce stack profiles",
+          "url": "https://github.com/croustibat/vibe-sync/issues/1",
+          "author": "croustibat",
+          "created_at": "2026-09-22T12:43:01Z"
+        },
+        {
+          "title": "refactor(ptodsl): make signless iN the only integer identity during tracing; demote siN/uiN to wrapper metadata and boundaries",
+          "url": "https://github.com/hw-native-sys/PTOAS/issues/1424",
+          "author": "Zhendong404",
+          "created_at": "2026-09-01T08:36:05Z"
+        },
+        {
+          "title": "\"Federation\" names two unrelated features — disambiguate in the UI and codebase",
+          "url": "https://github.com/MetaCoding-io/SemPKM/issues/26",
+          "author": "jquacinella",
+          "created_at": "2026-09-03T17:01:25Z"
+        },
+        {
+          "title": "scripts/select.py 与 Python 标准库 select 模块同名冲突，导致按 INSTALL.md 的运行方式崩溃",
+          "url": "https://github.com/bigbird-online/coevolution/issues/1",
+          "author": "EricChangZ",
+          "created_at": "2026-08-24T06:01:31Z"
+        },
+        {
+          "title": "refactor(tooling): extract the shared guard skeleton and frontmatter primitives",
+          "url": "https://github.com/frederick-douglas-pearce/claude-code-sessions/issues/228",
+          "author": "frederick-douglas-pearce",
+          "created_at": "2026-09-09T04:29:46Z"
+        },
+        {
+          "title": "Conversion summary calls n_features_without_pg \"identified-but-not-quantified\", but it counts features with no PG link",
+          "url": "https://github.com/bigbio/qpx/issues/282",
+          "author": "timosachsenberg",
+          "created_at": "2026-08-13T11:44:09Z"
+        },
+        {
+          "title": "Deep code review — rolling small improvements",
+          "url": "https://github.com/danielBrule/job-application-copilot/issues/107",
+          "author": "danielBrule",
+          "created_at": "2026-07-28T09:57:05Z"
+        },
+        {
+          "title": "Consolidate environment variables",
+          "url": "https://github.com/ahalterman/NGEC-2025/issues/49",
+          "author": "andybega",
+          "created_at": "2026-09-24T11:31:54Z"
+        },
+        {
+          "title": "Verify the \"Cleaning Brush\" CMS maintenance item label against the vendor app",
+          "url": "https://github.com/martintechin/homeassistant-dreamelawnmower/issues/6",
+          "author": "martintechin",
+          "created_at": "2026-07-11T22:41:44Z"
+        },
+        {
+          "title": "s05 never cleans its output dir: stale insertion_*_report.txt accumulate and overstate site counts (already caused a wrong doc claim)",
+          "url": "https://github.com/wyim-pgl/redgene/issues/22",
+          "author": "wyim-pgl",
+          "created_at": "2026-07-11T09:10:39Z"
+        },
+        {
+          "title": "deep-review: netsentinel — ERR: _load_alert_dicts raises TypeError on JSON without an alerts list, including the tool's own correlate.json",
+          "url": "https://github.com/5h4d0wn1k/netsentinel/issues/13",
+          "author": "5h4d0wn1k",
+          "created_at": "2026-09-27T07:15:57Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"registry\" \"lockfile\" \"old\" repo:npm/cli repo:pnpm/pnpm repo:oven-sh/bun",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22registry%22+%22lockfile%22+%22old%22+repo%3Anpm%2Fcli+repo%3Apnpm%2Fpnpm+repo%3Aoven-sh%2Fbun&per_page=40",
+      "retrieved_at": "2026-10-09T16:21:49.899915+00:00",
+      "total_count": 41,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "[BUG] `npm install` ignores Git SHA changes",
+          "url": "https://github.com/npm/cli/issues/9966",
+          "author": "demian-gg",
+          "created_at": "2026-09-12T16:21:51Z"
+        },
+        {
+          "title": "`bun update <pkg>` does not re-resolve packages whose `$pkg` override changed; lock stays stale and `bun install` / `--frozen-lockfile` do not notice",
+          "url": "https://github.com/oven-sh/bun/issues/43975",
+          "author": "mirao",
+          "created_at": "2026-09-25T11:14:20Z"
+        },
+        {
+          "title": "Changing overrides fails when a peer dependency is resolved to an npm alias in the lockfile",
+          "url": "https://github.com/pnpm/pnpm/issues/16654",
+          "author": "yarokon",
+          "created_at": "2026-10-06T12:58:58Z"
+        },
+        {
+          "title": "install and dedupe disagree when registry metadata omits peerDependenciesMeta (default config since 11.28.1)",
+          "url": "https://github.com/pnpm/pnpm/issues/16615",
+          "author": "zachary-onix",
+          "created_at": "2026-10-05T19:55:20Z"
+        },
+        {
+          "title": "[pnpm v12] outdated / up -iL omits named-registry packages",
+          "url": "https://github.com/pnpm/pnpm/issues/15226",
+          "author": "bicrypt",
+          "created_at": "2026-09-21T16:10:34Z"
+        },
+        {
+          "title": "`bun update --latest` moves a package that a `catalog:` override pins, and the catalog entry keeps the old version",
+          "url": "https://github.com/oven-sh/bun/issues/44306",
+          "author": "robobun",
+          "created_at": "2026-09-30T12:44:57Z"
+        },
+        {
+          "title": "Supply-chain policy verification fetches `@jsr/*` packuments from the default registry instead of the `@jsr` scope registry (ERR_PNPM_META_FETCH_FAIL)",
+          "url": "https://github.com/pnpm/pnpm/issues/14649",
+          "author": "fujikky",
+          "created_at": "2026-09-07T06:07:41Z"
+        },
+        {
+          "title": "Metadata cache never removes a registry directory it stopped using, and `cache list-registries` prints the leftovers undecoded",
+          "url": "https://github.com/pnpm/pnpm/issues/15046",
+          "author": "TrevorBurnham",
+          "created_at": "2026-09-18T00:35:32Z"
+        },
+        {
+          "title": "pnpm 12 cold-store install on macOS is 2–10x slower than pnpm 10/11 with the default `clone` import method (dir-clone cache)",
+          "url": "https://github.com/pnpm/pnpm/issues/16782",
+          "author": "Jdruwe",
+          "created_at": "2026-10-09T07:17:20Z"
+        },
+        {
+          "title": "pnpm 12 ERR_PNPM_FROZEN_LOCKFILE_WITH_OUTDATED_LOCKFILE",
+          "url": "https://github.com/pnpm/pnpm/issues/14124",
+          "author": "escaton",
+          "created_at": "2026-08-24T09:46:19Z"
+        },
+        {
+          "title": "wrong lockfile tarball registry for same-host multi-path registries, leading to verification failure (ERR_PNPM_TARBALL_URL_MISMATCH)",
+          "url": "https://github.com/pnpm/pnpm/issues/13558",
+          "author": "ahippler",
+          "created_at": "2026-08-01T14:20:27Z"
+        },
+        {
+          "title": "bun update <package> re-resolves manifests for unrelated, unchanged lockfile entries instead of scoping to the target's subtree",
+          "url": "https://github.com/oven-sh/bun/issues/41015",
+          "author": "palmithor",
+          "created_at": "2026-08-31T09:28:04Z"
+        },
+        {
+          "title": "minimumReleaseAge silently skipped when the registry reuses one ETag for abbreviated and full metadata",
+          "url": "https://github.com/pnpm/pnpm/issues/14925",
+          "author": "MKlingner",
+          "created_at": "2026-09-15T14:51:50Z"
+        },
+        {
+          "title": "Unexpected \"High-risk trust downgrade\" error",
+          "url": "https://github.com/pnpm/pnpm/issues/16689",
+          "author": "ThibaultVlacich",
+          "created_at": "2026-10-07T09:08:38Z"
+        },
+        {
+          "title": "Regression in 12: moving a peer-bearing dependency between importers leaves a dangling symlink and no `snapshots:` entry",
+          "url": "https://github.com/pnpm/pnpm/issues/14764",
+          "author": "dlecan",
+          "created_at": "2026-09-10T06:41:40Z"
+        },
+        {
+          "title": "[Windows] pnpm self-update fails on Windows because matching @pnpm/win-x64 artifact is unpublished",
+          "url": "https://github.com/pnpm/pnpm/issues/15380",
+          "author": "ofelipechan",
+          "created_at": "2026-09-23T15:13:46Z"
+        },
+        {
+          "title": "bun install hangs forever with no error when it cannot create a thread (pids cgroup limit)",
+          "url": "https://github.com/oven-sh/bun/issues/43354",
+          "author": "robobun",
+          "created_at": "2026-09-18T19:07:21Z"
+        },
+        {
+          "title": "Fast lockfile update: absorb parent-scoped overrides (parent>child)",
+          "url": "https://github.com/pnpm/pnpm/issues/13795",
+          "author": "zkochan",
+          "created_at": "2026-08-10T23:29:58Z"
+        },
+        {
+          "title": "pnpr panics and exits on its first resolve (security-framework policy.rs:17, macOS)",
+          "url": "https://github.com/pnpm/pnpm/issues/14461",
+          "author": "spencerbeggs",
+          "created_at": "2026-09-02T12:42:01Z"
+        },
+        {
+          "title": "pacquet: `deploy --legacy` resolves fresh instead of preferring the workspace lockfile's versions",
+          "url": "https://github.com/pnpm/pnpm/issues/13857",
+          "author": "zkochan",
+          "created_at": "2026-08-12T09:57:31Z"
+        },
+        {
+          "title": "Env document writes refuse a symlinked pnpm-lock.yaml and rewrite it when unchanged, unlike the main document",
+          "url": "https://github.com/pnpm/pnpm/issues/14372",
+          "author": "LizunovSergey",
+          "created_at": "2026-08-31T16:51:09Z"
+        },
+        {
+          "title": "Ship pnpm v12 without a breaking lockfile bump: lockfile 9.12 + node-gyp injection opt-out",
+          "url": "https://github.com/pnpm/pnpm/issues/13585",
+          "author": "zkochan",
+          "created_at": "2026-08-02T12:22:00Z"
+        },
+        {
+          "title": "bun install --frozen-lockfile rejects a lockfile that bun install just generated",
+          "url": "https://github.com/oven-sh/bun/issues/36577",
+          "author": "kingsloob1",
+          "created_at": "2026-07-31T17:28:21Z"
+        },
+        {
+          "title": "Fast lockfile update keeps an older version on a widened range where resolution would dedupe to a higher already-locked one",
+          "url": "https://github.com/pnpm/pnpm/issues/13778",
+          "author": "zkochan",
+          "created_at": "2026-08-10T17:45:54Z"
+        },
+        {
+          "title": "pnpr: resolve requests don't carry the client's autoInstallPeers / dedupePeers / excludeLinksFromLockfile",
+          "url": "https://github.com/pnpm/pnpm/issues/13389",
+          "author": "zkochan",
+          "created_at": "2026-07-25T23:46:14Z"
+        },
+        {
+          "title": "install links modified store content into node_modules instead of refetching it (--force included)",
+          "url": "https://github.com/pnpm/pnpm/issues/14173",
+          "author": "WolffM",
+          "created_at": "2026-08-25T20:19:20Z"
+        },
+        {
+          "title": "Resolve to engine-compatible versions instead of failing when engineStrict is set (Renovate-style constraintsFiltering=strict)",
+          "url": "https://github.com/pnpm/pnpm/issues/13252",
+          "author": "zkochan",
+          "created_at": "2026-07-23T18:47:48Z"
+        },
+        {
+          "title": "pnpm 12: release-age verifier ignores `registrySupportsTimeField` and the per-version `time` in abbreviated metadata",
+          "url": "https://github.com/pnpm/pnpm/issues/13936",
+          "author": "zkochan",
+          "created_at": "2026-08-16T07:17:06Z"
+        },
+        {
+          "title": "More lockfile updates that could skip full resolution",
+          "url": "https://github.com/pnpm/pnpm/issues/13696",
+          "author": "zkochan",
+          "created_at": "2026-08-07T10:03:19Z"
+        },
+        {
+          "title": "pnpm store prune is the only way to clear stale metadata from index.db when using a private GitLab registry",
+          "url": "https://github.com/pnpm/pnpm/issues/13487",
+          "author": "devcustrom",
+          "created_at": "2026-07-29T09:34:14Z"
+        },
+        {
+          "title": "file: .tgz dep makes every repeat install re-clone the whole tree when nodeLinker = hoisted",
+          "url": "https://github.com/pnpm/pnpm/issues/14495",
+          "author": "sderrow",
+          "created_at": "2026-09-03T04:26:00Z"
+        },
+        {
+          "title": "Python in a real monorepo: eight popular pnpm+Python repos, none of them install",
+          "url": "https://github.com/pnpm/pnpm/issues/14945",
+          "author": "zkochan",
+          "created_at": "2026-09-16T08:10:13Z"
+        },
+        {
+          "title": "RFC: stop shipping node-gyp — inject it as a resolved dependency of packages that need it",
+          "url": "https://github.com/pnpm/pnpm/issues/13580",
+          "author": "zkochan",
+          "created_at": "2026-08-02T10:19:19Z"
+        },
+        {
+          "title": "Name a manifest-less git dependency `@owner/repo` instead of the bare repository name",
+          "url": "https://github.com/pnpm/pnpm/issues/14870",
+          "author": "zkochan",
+          "created_at": "2026-09-13T09:06:33Z"
+        },
+        {
+          "title": "Pnpm v12 fails to install some scripts and packages in nuxtjs and vite plus monorepo:",
+          "url": "https://github.com/pnpm/pnpm/issues/16308",
+          "author": "destroyer22719",
+          "created_at": "2026-09-28T04:18:58Z"
+        },
+        {
+          "title": "[BUG] npm audit fails: advisories/bulk returns a gzip body with no Content-Encoding header",
+          "url": "https://github.com/npm/cli/issues/9804",
+          "author": "jakobarsement",
+          "created_at": "2026-07-26T06:21:51Z"
+        },
+        {
+          "title": "Store-index pkgId differs between pnpm and pacquet for URL and git dependencies, so neither reuses the other's rows",
+          "url": "https://github.com/pnpm/pnpm/issues/13365",
+          "author": "zkochan",
+          "created_at": "2026-07-25T14:13:27Z"
+        },
+        {
+          "title": "Validate pnpm 12 (Rust) against the 10 most popular pnpm workspaces",
+          "url": "https://github.com/pnpm/pnpm/issues/13305",
+          "author": "zkochan",
+          "created_at": "2026-07-25T10:16:09Z"
+        },
+        {
+          "title": "pnpm 11.11+ OOMs by re-serializing full package metadata for concurrent workspace cache hits",
+          "url": "https://github.com/pnpm/pnpm/issues/13077",
+          "author": "Stanzilla",
+          "created_at": "2026-07-16T12:15:42Z"
+        },
+        {
+          "title": "self-update crashes with `Cannot use 'in' operator to search for 'integrity' in undefined` due to peer dependencies",
+          "url": "https://github.com/pnpm/pnpm/issues/12959",
+          "author": "ImBIOS",
+          "created_at": "2026-07-13T01:31:44Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"shadowing\" in:title",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22shadowing%22+in%3Atitle&per_page=40",
+      "retrieved_at": "2026-10-09T16:21:44.141722+00:00",
+      "total_count": 1384,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "Shadowing",
+          "url": "https://github.com/LauraVelaSamp/celostar-newsletter-assets/issues/1",
+          "author": "LauraVelaSamp",
+          "created_at": "2026-09-16T09:48:16Z"
+        },
+        {
+          "title": "Terrain self-shadowing",
+          "url": "https://github.com/afrigon/xsa/issues/47",
+          "author": "afrigon",
+          "created_at": "2026-10-04T21:09:05Z"
+        },
+        {
+          "title": "metadataRepository field shadowing in MetadataService implementations",
+          "url": "https://github.com/FAIRDataTeam/FAIRDataPoint/issues/1032",
+          "author": "dennisvang",
+          "created_at": "2026-10-02T21:27:56Z"
+        },
+        {
+          "title": "Add semantic tests for variable shadowing",
+          "url": "https://github.com/Sim20004/teapot-lang/issues/157",
+          "author": "Sim20004",
+          "created_at": "2026-10-06T19:21:36Z"
+        },
+        {
+          "title": "Reject more shadowing",
+          "url": "https://github.com/coln-project/Coln/issues/147",
+          "author": "olynch",
+          "created_at": "2026-09-04T16:12:19Z"
+        },
+        {
+          "title": "Define Aura lexical scope and shadowing",
+          "url": "https://github.com/mwilsoncoding/aura/issues/42",
+          "author": "mwilsoncoding",
+          "created_at": "2026-09-29T21:41:56Z"
+        },
+        {
+          "title": "Variable Shadowing & Dead Code in `gameMode.go`",
+          "url": "https://github.com/JeremyBelleIsle/Stick-war-simulation/issues/8",
+          "author": "a-dot",
+          "created_at": "2026-10-07T11:55:00Z"
+        },
+        {
+          "title": "Shadowing methods/fields/properties",
+          "url": "https://github.com/boo-lang/boo-codehaus-archive/issues/668",
+          "author": "mattmc3",
+          "created_at": "2026-09-08T23:04:51Z"
+        },
+        {
+          "title": "Resolve header shadowing issues in recent releases",
+          "url": "https://github.com/hermeticbuild/hermetic-llvm/issues/804",
+          "author": "asymingt",
+          "created_at": "2026-10-02T17:10:47Z"
+        },
+        {
+          "title": "keybind shadowing",
+          "url": "https://github.com/ZenNotes/zennotes/issues/380",
+          "author": "Tornado300",
+          "created_at": "2026-07-12T12:12:35Z"
+        },
+        {
+          "title": "add conditional shadowing for plugins",
+          "url": "https://github.com/odoo/owl/issues/2034",
+          "author": "ged-odoo",
+          "created_at": "2026-09-10T09:21:32Z"
+        },
+        {
+          "title": "LO-9: WiFi member shadowing of ssid/password",
+          "url": "https://github.com/JN0V/DomoticsCore/issues/164",
+          "author": "JN0V",
+          "created_at": "2026-10-04T08:25:05Z"
+        },
+        {
+          "title": "bug - Constant shadowing emits a refutable Rust binding",
+          "url": "https://github.com/encero-systems/incan/issues/2071",
+          "author": "dannymeijer",
+          "created_at": "2026-10-06T01:57:30Z"
+        },
+        {
+          "title": "[Low/bug] Key shadowing + fragile requires",
+          "url": "https://github.com/SYKhayyat/emacs-config/issues/24",
+          "author": "SYKhayyat",
+          "created_at": "2026-09-09T17:07:50Z"
+        },
+        {
+          "title": "Align guarded-interaction shadowing messages and document standalone ExpandAll",
+          "url": "https://github.com/Cratis/Screenplay/issues/576",
+          "author": "woksin",
+          "created_at": "2026-10-09T05:38:36Z"
+        },
+        {
+          "title": "Migrate Fleet responsibilities through shadowing and reversible authority transfer",
+          "url": "https://github.com/Walsamer/tactus/issues/24",
+          "author": "Walsamer",
+          "created_at": "2026-10-06T19:17:33Z"
+        },
+        {
+          "title": "Respect helper binding shadowing in dependency extraction",
+          "url": "https://github.com/workingdir/ornadb/issues/1159",
+          "author": "kierandrewett",
+          "created_at": "2026-09-26T05:08:24Z"
+        },
+        {
+          "title": "Preserve lexical shadowing in Ruby output",
+          "url": "https://github.com/type-rb/type-rb/issues/694",
+          "author": "hiroki23",
+          "created_at": "2026-09-15T05:16:12Z"
+        },
+        {
+          "title": "Block shadowing allows false contracts to verify",
+          "url": "https://github.com/FStarLang/pal/issues/325",
+          "author": "hei411",
+          "created_at": "2026-09-23T17:43:18Z"
+        },
+        {
+          "title": "findBinary accepts non-executable implicit candidates, shadowing PATH fallback",
+          "url": "https://github.com/psaab/xpf/issues/12196",
+          "author": "psaab",
+          "created_at": "2026-10-04T16:15:07Z"
+        },
+        {
+          "title": "⚠️ [LOW] Shadowing of Standard ERC-20 `symbol()` Function",
+          "url": "https://github.com/StellarFlow-Network/stellarflow-contracts/issues/1208",
+          "author": "Sadeequ",
+          "created_at": "2026-10-08T11:51:44Z"
+        },
+        {
+          "title": "[TV5][API] Learner Shadowing Practice History & Progress Tracking",
+          "url": "https://github.com/KhoiPM23/JCAP/issues/47",
+          "author": "KhoiPM23",
+          "created_at": "2026-09-24T17:48:58Z"
+        },
+        {
+          "title": "[TV5][Frontend] Shadowing Result & Detailed Performance Feedback View",
+          "url": "https://github.com/KhoiPM23/JCAP/issues/46",
+          "author": "KhoiPM23",
+          "created_at": "2026-09-24T17:48:56Z"
+        },
+        {
+          "title": "[TV5][Frontend] Shadowing Practice Flow & Interactive Conversation Room",
+          "url": "https://github.com/KhoiPM23/JCAP/issues/45",
+          "author": "KhoiPM23",
+          "created_at": "2026-09-24T17:48:54Z"
+        },
+        {
+          "title": "Minor cleanups: variable shadowing, missing NOT NULL, missing indexes",
+          "url": "https://github.com/liamdln/betterauth-vatsim/issues/9",
+          "author": "liamdln",
+          "created_at": "2026-10-06T20:35:40Z"
+        },
+        {
+          "title": "Invitation to share shadowing-english on GithubStarMate",
+          "url": "https://github.com/TideSparrow/shadowing-english/issues/11",
+          "author": "001123",
+          "created_at": "2026-09-20T10:23:41Z"
+        },
+        {
+          "title": "Use-Case : Shadowing",
+          "url": "https://github.com/skodapetr/data-schema/issues/12",
+          "author": "skodapetr",
+          "created_at": "2026-07-28T06:06:09Z"
+        },
+        {
+          "title": "Hint leads to variable shadowing in Level 9 / 10",
+          "url": "https://github.com/hhu-adam/Robo/issues/173",
+          "author": "ByteEater-pl",
+          "created_at": "2026-10-01T20:49:40Z"
+        },
+        {
+          "title": "[M2-15] agda-strux: prettyQname shadowing",
+          "url": "https://github.com/formalverification/agda-native-air/issues/144",
+          "author": "williamdemeo",
+          "created_at": "2026-09-07T21:43:16Z"
+        },
+        {
+          "title": "⚠️ [LOW] Fix Variable Shadowing in Local Function Scope Declarations",
+          "url": "https://github.com/StellarFlow-Network/stellarflow-contracts/issues/1158",
+          "author": "Sadeequ",
+          "created_at": "2026-10-08T11:25:43Z"
+        },
+        {
+          "title": "bug(jsonc-edit): source shadowing violates the required Clippy gate",
+          "url": "https://github.com/Aquaticat/Monochromatic/issues/601",
+          "author": "Aquaticat",
+          "created_at": "2026-10-04T21:43:33Z"
+        },
+        {
+          "title": "API-credit DTO schema fields emit repeated Pydantic shadowing warnings",
+          "url": "https://github.com/arkhai-io/simple-compute-market/issues/259",
+          "author": "mlegls",
+          "created_at": "2026-10-05T13:29:24Z"
+        },
+        {
+          "title": "P3 task: Enforce include-order shadowing behavior",
+          "url": "https://github.com/jasonnicholson/matlabdomain-non-fork/issues/34",
+          "author": "jasonnicholson",
+          "created_at": "2026-09-06T18:27:52Z"
+        },
+        {
+          "title": "chore: remove leftover 'Coming soon' placeholders shadowing shipped features",
+          "url": "https://github.com/Deen-Bridge/dnb-frontend/issues/504",
+          "author": "zeemscript",
+          "created_at": "2026-09-18T22:22:40Z"
+        },
+        {
+          "title": "Rename repo pr-review skill to resolve harness skill shadowing",
+          "url": "https://github.com/konflux-ci/konflux-ci/issues/9385",
+          "author": "fullsend-ai-retro[bot]",
+          "created_at": "2026-10-01T06:32:46Z"
+        },
+        {
+          "title": "CodeReviewFinding: nonRestExercises shadowing in upload_service.dart",
+          "url": "https://github.com/carlheinmostert/TrainMe/issues/1319",
+          "author": "carlheinmostert",
+          "created_at": "2026-09-09T03:17:19Z"
+        },
+        {
+          "title": "Schema template emits property name as title, shadowing $ref class names",
+          "url": "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.core/issues/11",
+          "author": "SimonStier",
+          "created_at": "2026-10-09T06:13:10Z"
+        },
+        {
+          "title": "[FIELD-001] Shadowing con chofer y validación de contexto",
+          "url": "https://github.com/VectorGarMan/routes-api/issues/61",
+          "author": "VectorGarMan",
+          "created_at": "2026-09-23T02:43:27Z"
+        },
+        {
+          "title": "Harden remaining workflow CLI call sites against cwd module shadowing",
+          "url": "https://github.com/stephenkiers/claude-helpers/issues/230",
+          "author": "stephenkiers",
+          "created_at": "2026-09-30T09:00:05Z"
+        },
+        {
+          "title": "Types FCP v2: Supertrait item shadowing stabilization",
+          "url": "https://github.com/rust-lang/rust/issues/162130",
+          "author": "jackh726",
+          "created_at": "2026-09-01T14:24:25Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"dockerignore\" \"not found\"",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22dockerignore%22+%22not+found%22&per_page=50&sort=created&order=desc",
+      "retrieved_at": "2026-10-09T16:21:09.797481+00:00",
+      "total_count": 809,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "GrokConnect: driver-jar hygiene - stale jars baked into local images; tracked lib/ shadows pom CVE pins",
+          "url": "https://github.com/datagrok-ai/grok-connect/issues/25",
+          "author": "Aleksashka11",
+          "created_at": "2026-10-09T15:47:46Z"
+        },
+        {
+          "title": "ci: shorten the critical path (image build and backend static analysis)",
+          "url": "https://github.com/nukipratama/temari/issues/2023",
+          "author": "nukipratama",
+          "created_at": "2026-10-09T11:54:27Z"
+        },
+        {
+          "title": "No test resolves a DeepSpeed preset from an installed wheel; the only resolution test passes because it runs from the source tree (CR-A02-024)",
+          "url": "https://github.com/HodeTech/ForgeLM/issues/111",
+          "author": "cemililik",
+          "created_at": "2026-10-09T07:18:16Z"
+        },
+        {
+          "title": "DeepSpeed presets (zero2/zero3/zero3_offload) are not packaged in the wheel or image, so preset names fail on every pip/Docker install (CR-A02-004)",
+          "url": "https://github.com/HodeTech/ForgeLM/issues/110",
+          "author": "cemililik",
+          "created_at": "2026-10-09T07:18:07Z"
+        },
+        {
+          "title": "Deploy Log: 5e510a5",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/75",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-09T06:30:41Z"
+        },
+        {
+          "title": "🔥 ccloud/fm-azure-cosmosdb-source",
+          "url": "https://github.com/vdesabou/kafka-docker-playground/issues/9051",
+          "author": "vdesabou",
+          "created_at": "2026-10-09T06:00:48Z"
+        },
+        {
+          "title": "[MVP0][SPEC-005][F5] Servidor headless em Docker com latência e perda simuladas",
+          "url": "https://github.com/RodReis/rrb-godot/issues/6",
+          "author": "RodReis",
+          "created_at": "2026-10-09T00:15:47Z"
+        },
+        {
+          "title": "[aw] EU CRA / Conformity exceeded max AI credits",
+          "url": "https://github.com/githubnext/gh-aw-cao/issues/16935",
+          "author": "mnkiefer",
+          "created_at": "2026-10-08T23:05:11Z"
+        },
+        {
+          "title": "Source inventory: OmniRoute PRs, issues and port candidates",
+          "url": "https://github.com/bloodf/durindoor/issues/1073",
+          "author": "bloodf",
+          "created_at": "2026-10-08T20:04:09Z"
+        },
+        {
+          "title": "Uploads are written outside the bind-mounted directory and lost on container recreate",
+          "url": "https://github.com/kmbrimble/terriblebutler/issues/51",
+          "author": "kmbrimble",
+          "created_at": "2026-10-08T17:18:06Z"
+        },
+        {
+          "title": "PR #347 하네스 정리 우편함 (Codex ↔ 팀)",
+          "url": "https://github.com/AISFlow/fvoci/issues/368",
+          "author": "fvoci",
+          "created_at": "2026-10-08T14:28:58Z"
+        },
+        {
+          "title": "🔥 connect/connect-jdbc-gcp-bigquery-source (cfk)",
+          "url": "https://github.com/vdesabou/kafka-docker-playground/issues/8973",
+          "author": "vdesabou",
+          "created_at": "2026-10-08T13:35:17Z"
+        },
+        {
+          "title": "0017: Production image, guides and hardening",
+          "url": "https://github.com/HelrenPDM/espalier/issues/17",
+          "author": "HelrenPDM",
+          "created_at": "2026-10-08T09:11:08Z"
+        },
+        {
+          "title": "Not possible to create a new project from Windows",
+          "url": "https://github.com/costastf/paleofuturistic_python/issues/24",
+          "author": "jorgemb",
+          "created_at": "2026-10-08T08:07:18Z"
+        },
+        {
+          "title": "Campaign board: launch finish",
+          "url": "https://github.com/guy915/Co-Scientist/issues/453",
+          "author": "guy915",
+          "created_at": "2026-10-08T07:21:46Z"
+        },
+        {
+          "title": "feedback(agent-patterns-plugin): multi-model-delegation — PAL codereview's expert is anchored on the caller's step-2 findings",
+          "url": "https://github.com/laurigates/claude-plugins/issues/2962",
+          "author": "laurigates",
+          "created_at": "2026-10-08T06:34:08Z"
+        },
+        {
+          "title": "test: pin that built images install lib/runtime/lib fragments at /opt/container-runtime/lib",
+          "url": "https://github.com/joshjhall/containers/issues/1093",
+          "author": "joshjhall",
+          "created_at": "2026-10-08T05:29:12Z"
+        },
+        {
+          "title": "Fill more of the model column, then audit the whole project for anything that can hang or drift",
+          "url": "https://github.com/2daKaizen-gun/kotona-analyzer/issues/76",
+          "author": "2daKaizen-gun",
+          "created_at": "2026-10-08T03:31:36Z"
+        },
+        {
+          "title": "[finding] create-objectstack: the scaffolded Dockerfile runs `npm ci`, but a pnpm-scaffolded project ships only `pnpm-lock.yaml` — `docker build` fails at the build stage",
+          "url": "https://github.com/objectstack-ai/objectstack/issues/22150",
+          "author": "objectstack-fleet[bot]",
+          "created_at": "2026-10-08T03:12:28Z"
+        },
+        {
+          "title": "Clone install without rsync omits .env.schema.json and .env.example, so the dashboard's .env save returns 500",
+          "url": "https://github.com/Osmantic/ODS/issues/7458",
+          "author": "roshangupta00750",
+          "created_at": "2026-10-08T01:19:16Z"
+        },
+        {
+          "title": "🔥 connect/connect-gcp-firebase-source (cfk)",
+          "url": "https://github.com/vdesabou/kafka-docker-playground/issues/8959",
+          "author": "vdesabou",
+          "created_at": "2026-10-08T00:19:51Z"
+        },
+        {
+          "title": "🔥 connect/connect-testing-smt",
+          "url": "https://github.com/vdesabou/kafka-docker-playground/issues/8953",
+          "author": "vdesabou",
+          "created_at": "2026-10-08T00:15:52Z"
+        },
+        {
+          "title": "🔥 connect/connect-gcp-pubsub-source",
+          "url": "https://github.com/vdesabou/kafka-docker-playground/issues/8952",
+          "author": "vdesabou",
+          "created_at": "2026-10-08T00:15:27Z"
+        },
+        {
+          "title": "Release blocker: VPS webhook, SSH/DNS, and verified production cut",
+          "url": "https://github.com/user1mxm/samsung-store-mx/issues/13",
+          "author": "user1mxm",
+          "created_at": "2026-10-07T22:38:54Z"
+        },
+        {
+          "title": "[aw] EU CRA / Article 14 exceeded max AI credits",
+          "url": "https://github.com/githubnext/gh-aw-cao/issues/16684",
+          "author": "mnkiefer",
+          "created_at": "2026-10-07T22:04:36Z"
+        },
+        {
+          "title": "[aw] EU CRA / Scope exceeded max AI credits",
+          "url": "https://github.com/githubnext/gh-aw-cao/issues/16683",
+          "author": "mnkiefer",
+          "created_at": "2026-10-07T22:04:32Z"
+        },
+        {
+          "title": "[aw] EU CRA / Security exceeded max AI credits",
+          "url": "https://github.com/githubnext/gh-aw-cao/issues/16680",
+          "author": "mnkiefer",
+          "created_at": "2026-10-07T22:03:37Z"
+        },
+        {
+          "title": "Docker build: breaks when the checkout has a stale install",
+          "url": "https://github.com/mia-cx/thalia/issues/145",
+          "author": "mia-riezebos",
+          "created_at": "2026-10-07T20:12:36Z"
+        },
+        {
+          "title": "[Wave 200pts] v2: Docker build fails: .npmrc not copied (ERESOLVE), husky prepare runs with --omit=dev",
+          "url": "https://github.com/Nexacore-Org/NexaFx-backend/issues/1326",
+          "author": "portableDD",
+          "created_at": "2026-10-07T20:04:01Z"
+        },
+        {
+          "title": "[AUDIT/V8] Tracked scratch/automation artefacts in repo root leak bot paths and include a destructive auto-commit/push script",
+          "url": "https://github.com/xlabtg/teleton-agent/issues/766",
+          "author": "konard",
+          "created_at": "2026-10-07T17:37:11Z"
+        },
+        {
+          "title": "[Config][Audit] Define and constrain the repository-wide dotenv source surface",
+          "url": "https://github.com/jnhu76/exam/issues/741",
+          "author": "jnhu76",
+          "created_at": "2026-10-07T17:15:24Z"
+        },
+        {
+          "title": "Campaign board: re-architecture",
+          "url": "https://github.com/guy915/Co-Scientist/issues/332",
+          "author": "guy915",
+          "created_at": "2026-10-07T12:11:08Z"
+        },
+        {
+          "title": "Phase 2 今晚冲刺（12 点前，做多少算多少）",
+          "url": "https://github.com/opc007/agentmall/issues/2",
+          "author": "opc007",
+          "created_at": "2026-10-07T11:05:40Z"
+        },
+        {
+          "title": "Scanner probes for /.env flagged as exposed (likely false positive, same as #1157)",
+          "url": "https://github.com/digitalgroundgame/pragmatic-papers/issues/1160",
+          "author": "sentry[bot]",
+          "created_at": "2026-10-06T22:40:21Z"
+        },
+        {
+          "title": "Dotfile probes (/.git, /.env) raise Sentry security alerts",
+          "url": "https://github.com/digitalgroundgame/pragmatic-papers/issues/1157",
+          "author": "sentry[bot]",
+          "created_at": "2026-10-06T22:38:34Z"
+        },
+        {
+          "title": "Week 7 B2: design system",
+          "url": "https://github.com/samuraiigintoki/web3-wallet-dashboard/issues/66",
+          "author": "samuraiigintoki",
+          "created_at": "2026-10-06T21:20:12Z"
+        },
+        {
+          "title": "Backlog: found and not fixed by the 0.12.2 work (tools' security layer on the async path, the integration suite's inert runners, and others)",
+          "url": "https://github.com/fabriziosalmi/wildbox/issues/794",
+          "author": "fabriziosalmi",
+          "created_at": "2026-10-06T21:10:43Z"
+        },
+        {
+          "title": "Week 7 B1: frontend foundation",
+          "url": "https://github.com/samuraiigintoki/web3-wallet-dashboard/issues/64",
+          "author": "samuraiigintoki",
+          "created_at": "2026-10-06T18:44:08Z"
+        },
+        {
+          "title": "Deploy Log: f2f4908",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/74",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-06T18:35:16Z"
+        },
+        {
+          "title": "The release pipeline runs on a personal token beside unpinned actions",
+          "url": "https://github.com/zimmertr/bluebird/issues/632",
+          "author": "zimmertr",
+          "created_at": "2026-10-06T17:41:37Z"
+        },
+        {
+          "title": "Report pending release changes per npm package to PostHog",
+          "url": "https://github.com/langri-sha/langri-sha.com/issues/1511",
+          "author": "langri-sha",
+          "created_at": "2026-10-06T12:53:06Z"
+        },
+        {
+          "title": "Deploy Log: 5274bbb",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/73",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-06T11:25:15Z"
+        },
+        {
+          "title": "Deploy Log: e651851",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/72",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-06T06:56:41Z"
+        },
+        {
+          "title": "Deploy Log: a6059d4",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/71",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-06T06:28:31Z"
+        },
+        {
+          "title": "takserver_db image build failed",
+          "url": "https://github.com/takwerx/infra-TAK/issues/84",
+          "author": "habr05",
+          "created_at": "2026-10-06T03:22:16Z"
+        },
+        {
+          "title": "[MINUTES] DebugAI Development Log",
+          "url": "https://github.com/seigo-gace/debug-ai/issues/42",
+          "author": "seigo-gace",
+          "created_at": "2026-10-06T03:13:27Z"
+        },
+        {
+          "title": "m0: Docker Compose local stack",
+          "url": "https://github.com/nashit-mashkoor/kallula/issues/7",
+          "author": "nashit-mashkoor",
+          "created_at": "2026-10-05T23:50:14Z"
+        },
+        {
+          "title": "Deploy Log: 2c0518b",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/70",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-05T21:35:27Z"
+        },
+        {
+          "title": "Deploy Log: 895cc64",
+          "url": "https://github.com/himanshuvns/DineFlow/issues/69",
+          "author": "github-actions[bot]",
+          "created_at": "2026-10-05T21:10:32Z"
+        },
+        {
+          "title": "Publish a container image of dizzy with every release",
+          "url": "https://github.com/B42Labs/dizzy/issues/65",
+          "author": "berendt",
+          "created_at": "2026-10-05T20:51:14Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"dockerignore\" \"exclude\" in:title",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22dockerignore%22+%22exclude%22+in%3Atitle&per_page=10&sort=comments&order=desc",
+      "retrieved_at": "2026-10-09T16:24:20.683797+00:00",
+      "total_count": 49,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "[subfloor] sandbox: DeepSeek carrier COPY inputs are excluded by .dockerignore",
+          "url": "https://github.com/jedbjorn/subfloor/issues/1274",
+          "author": "jedbjorn",
+          "created_at": "2026-08-21T10:13:01Z"
+        },
+        {
+          "title": "langgraph deploy source archive silently drops files re-included via .dockerignore negation under an excluded directory",
+          "url": "https://github.com/langchain-ai/langgraph/issues/8387",
+          "author": "anuragpaul602-netizen",
+          "created_at": "2026-07-20T13:13:59Z"
+        },
+        {
+          "title": "[Bug]: Template copy() includes files that .dockerignore / fileIgnorePatterns should exclude (JS + Python)",
+          "url": "https://github.com/e2b-dev/E2B/issues/1902",
+          "author": "hardness1020",
+          "created_at": "2026-09-26T10:05:08Z"
+        },
+        {
+          "title": "feat(docker): add .dockerignore to exclude build artifacts from Docker context",
+          "url": "https://github.com/Maki-Zeninn/stellar-router/issues/922",
+          "author": "Maki-Zeninn",
+          "created_at": "2026-07-25T20:34:51Z"
+        },
+        {
+          "title": "[Verified by reproduction] .dockerignore excludes tsconfig.json/tsconfig.build.json/nest-cli.json, breaking npm run build inside every Docker stage",
+          "url": "https://github.com/MergeFi/backend/issues/176",
+          "author": "chonilius",
+          "created_at": "2026-08-21T19:48:59Z"
+        },
+        {
+          "title": "Exclude tests, docs, and contracts from the Docker build context via .dockerignore",
+          "url": "https://github.com/scout-off/scout-off-backend/issues/1203",
+          "author": "Petah1",
+          "created_at": "2026-08-27T07:09:20Z"
+        },
+        {
+          "title": "[Bug]: Dockerignore **.txt patterns do not exclude template files in either SDK",
+          "url": "https://github.com/e2b-dev/E2B/issues/1933",
+          "author": "siye566",
+          "created_at": "2026-10-02T15:04:16Z"
+        },
+        {
+          "title": "build(.dockerignore): does not exclude .worktrees/ (used by git worktree workflow)",
+          "url": "https://github.com/airvzxf/ftp-deployment-action/issues/206",
+          "author": "airvzxf",
+          "created_at": "2026-09-03T20:31:19Z"
+        },
+        {
+          "title": "build(docker): add .dockerignore to exclude .git and tests from build context",
+          "url": "https://github.com/andrewthetechie/err-aprs-backend/issues/453",
+          "author": "andrewthetechie",
+          "created_at": "2026-07-22T14:24:11Z"
+        },
+        {
+          "title": ".dockerignore wildcard exceptions lose files inside excluded directories",
+          "url": "https://github.com/docker/docker-py/issues/3448",
+          "author": "jyn514",
+          "created_at": "2026-10-07T10:11:41Z"
+        }
+      ]
+    },
+    {
+      "query": "is:issue created:>=2026-07-10 \"registry\" \"lockfile\" \"switch\"",
+      "url": "https://api.github.com/search/issues?q=is%3Aissue+created%3A%3E%3D2026-07-10+%22registry%22+%22lockfile%22+%22switch%22&per_page=40",
+      "retrieved_at": "2026-10-09T16:22:47.631594+00:00",
+      "total_count": 4074,
+      "incomplete_results": false,
+      "inspected_first_page": [
+        {
+          "title": "Synchronize npm lockfile before switching CI to npm ci",
+          "url": "https://github.com/AI-WonderLand1/dreammakerhub.website/issues/495",
+          "author": "wonderingtribe",
+          "created_at": "2026-09-19T23:55:27Z"
+        },
+        {
+          "title": "P1: Commit reproducible dependency lockfiles",
+          "url": "https://github.com/smshagor-dev/CodeTwin-ML/issues/48",
+          "author": "smshagor-dev",
+          "created_at": "2026-09-13T08:21:31Z"
+        },
+        {
+          "title": "examples: Dockerfiles ignore the committed lockfiles (non-reproducible images, lockfiles untested by CI)",
+          "url": "https://github.com/SkipLabs/skip/issues/1535",
+          "author": "mbouaziz",
+          "created_at": "2026-09-24T13:02:57Z"
+        },
+        {
+          "title": "Sprint 0 hardening: lockfile, branch protection and Sonar quality gate",
+          "url": "https://github.com/Aetherexa/CodeCausality/issues/2",
+          "author": "imsp-vibe-Coder-2596",
+          "created_at": "2026-10-06T09:29:46Z"
+        },
+        {
+          "title": "npm: v3 lockfiles emit workspace paths and alias keys as registry dependencies with allow: all",
+          "url": "https://github.com/dependabot/dependabot-core/issues/16488",
+          "author": "myevolve",
+          "created_at": "2026-10-07T00:36:02Z"
+        },
+        {
+          "title": "P1: Make builds reproducible with lockfile and pinned CI actions",
+          "url": "https://github.com/camster91/human-health/issues/94",
+          "author": "camster91",
+          "created_at": "2026-09-04T14:01:48Z"
+        },
+        {
+          "title": "Delegate Orrery graph reads to microcosm-local-provider",
+          "url": "https://github.com/PolicyEngine/microcosm-runs/issues/3",
+          "author": "anth-volk",
+          "created_at": "2026-10-08T20:13:36Z"
+        },
+        {
+          "title": "Consider switching Node.js dependency management to pnpm",
+          "url": "https://github.com/aquaproj/aqua/issues/5223",
+          "author": "Shion1305",
+          "created_at": "2026-09-09T20:19:31Z"
+        },
+        {
+          "title": "HITL: publish adinize 0.1.0 to npm after PR #2 merges",
+          "url": "https://github.com/udin-io/adinize-js/issues/3",
+          "author": "pshoukry",
+          "created_at": "2026-10-07T13:59:33Z"
+        },
+        {
+          "title": "Move to pnpm 12",
+          "url": "https://github.com/zitadel/nextgen/issues/1531",
+          "author": "mridang",
+          "created_at": "2026-10-08T06:37:02Z"
+        },
+        {
+          "title": "Evaluate migrating npm → bun for install/build speed",
+          "url": "https://github.com/ABSeedAI/spectra/issues/105",
+          "author": "lpezet",
+          "created_at": "2026-09-14T00:41:40Z"
+        },
+        {
+          "title": "Upgrade mise lockfile format and finish default-backend migration once Renovate supports both",
+          "url": "https://github.com/risu729/dotfiles/issues/4330",
+          "author": "risu729",
+          "created_at": "2026-09-24T13:17:14Z"
+        },
+        {
+          "title": "Use the lockfile as a hard CI dependency gate",
+          "url": "https://github.com/imMamdouhaboammar/omni-skill/issues/42",
+          "author": "imMamdouhaboammar",
+          "created_at": "2026-09-06T14:48:50Z"
+        },
+        {
+          "title": "Factory heartbeat registry",
+          "url": "https://github.com/JoshCLWren/comic-pile/issues/1093",
+          "author": "JoshCLWren",
+          "created_at": "2026-08-12T00:21:39Z"
+        },
+        {
+          "title": "Commit and verify a reproducible frontend lockfile",
+          "url": "https://github.com/ldavis2700/rmc-classics/issues/55",
+          "author": "ldavis2700",
+          "created_at": "2026-10-03T02:17:23Z"
+        },
+        {
+          "title": "Add CI and refresh the stale lockfile (tests never run automatically; shared package unpinned)",
+          "url": "https://github.com/thehimmat/gurmukhi-search/issues/18",
+          "author": "thehimmat",
+          "created_at": "2026-09-01T20:46:57Z"
+        },
+        {
+          "title": "[spike] bun.lock compatibility",
+          "url": "https://github.com/MatheusBBarni/knot-node-tooling/issues/6",
+          "author": "MatheusBBarni",
+          "created_at": "2026-09-27T07:15:24Z"
+        },
+        {
+          "title": "[spike] package-lock.json compatibility",
+          "url": "https://github.com/MatheusBBarni/knot-node-tooling/issues/5",
+          "author": "MatheusBBarni",
+          "created_at": "2026-09-27T07:14:47Z"
+        },
+        {
+          "title": "Allow SheetJS CDN package downloads on restricted tiers",
+          "url": "https://github.com/daytonaio/sandbox-network-whitelist/issues/136",
+          "author": "hardchor",
+          "created_at": "2026-09-11T05:16:52Z"
+        },
+        {
+          "title": "Hosted npm pin in package-lock.json is attested by VEX in a Deno project, but deno.lock keeps installing the unpatched registry copy",
+          "url": "https://github.com/SocketDev/socket-patch/issues/406",
+          "author": "mikolalysenko",
+          "created_at": "2026-10-01T02:09:32Z"
+        },
+        {
+          "title": "[spike] pnpm-lock.yaml compatibility",
+          "url": "https://github.com/MatheusBBarni/knot-node-tooling/issues/7",
+          "author": "MatheusBBarni",
+          "created_at": "2026-09-27T07:16:23Z"
+        },
+        {
+          "title": "make check cannot see lockfile drift from npm install",
+          "url": "https://github.com/els0r/toilmaster3000/issues/88",
+          "author": "els0r",
+          "created_at": "2026-08-17T11:42:08Z"
+        },
+        {
+          "title": "Error: The installed pnpm reports version 11.21.0, expected 11.22.0",
+          "url": "https://github.com/pnpm/setup/issues/34",
+          "author": "hyunbinseo",
+          "created_at": "2026-08-15T21:16:09Z"
+        },
+        {
+          "title": "Change request: Kit adoption guide: BuildKit-secret token installs and mirrored disconnected installs",
+          "url": "https://github.com/gntik-ai/gntik-ui/issues/32",
+          "author": "andrea-mucci",
+          "created_at": "2026-10-08T10:19:55Z"
+        },
+        {
+          "title": "dependabot-triage workflow cannot reach npm, CI results or the lockfile edge diff, so its evidence misses what decides the verdict",
+          "url": "https://github.com/kompiro/karasu/issues/2838",
+          "author": "kompiro",
+          "created_at": "2026-09-15T12:45:06Z"
+        },
+        {
+          "title": "Install @rmartz/repo-hygiene from npmjs while still publishing to GitHub Packages",
+          "url": "https://github.com/rmartz/ai-tools/issues/325",
+          "author": "rmartz",
+          "created_at": "2026-09-24T16:30:05Z"
+        },
+        {
+          "title": "Fast conversation switching and bounded runtime temporary resources",
+          "url": "https://github.com/awangs1986/pi-coffee-server/issues/21",
+          "author": "awangs1986",
+          "created_at": "2026-10-01T16:31:24Z"
+        },
+        {
+          "title": "WEB-ARCH: build the complementary Next.js enterprise web app",
+          "url": "https://github.com/dbdanielbaracho/MLIVRETRABALHO/issues/224",
+          "author": "dbdanielbaracho",
+          "created_at": "2026-09-24T16:32:07Z"
+        },
+        {
+          "title": "PRO+ v2 CONTROL PLANE — Lane Registry & Hotspot Locks",
+          "url": "https://github.com/luizanunciostoca/toca-mcp-server/issues/639",
+          "author": "luizanunciostoca",
+          "created_at": "2026-09-05T01:15:49Z"
+        },
+        {
+          "title": "Discussion: packages.bioconductor.org for packages, a lean content site at bioconductor.org",
+          "url": "https://github.com/seandavi/bioc-infrastructure/issues/71",
+          "author": "seandavi",
+          "created_at": "2026-09-30T20:50:43Z"
+        },
+        {
+          "title": "v0.20: Address Cargo dependency drift and actionable compiler errors during upgrades",
+          "url": "https://github.com/jasoncavinder/Helm/issues/564",
+          "author": "jasoncavinder",
+          "created_at": "2026-09-27T08:36:57Z"
+        },
+        {
+          "title": "PS-06: Signed packs, a pack registry, and agent profiles from mvm-packs",
+          "url": "https://github.com/tinylabscom/mvm/issues/3716",
+          "author": "auser",
+          "created_at": "2026-09-25T22:12:04Z"
+        },
+        {
+          "title": "feat(distribution): one catalog manifest for manual + registry delivery; retire pnpm export",
+          "url": "https://github.com/nexuslabs-ai/nexus/issues/798",
+          "author": "aishvaryagupta",
+          "created_at": "2026-09-27T06:52:41Z"
+        },
+        {
+          "title": "Generate .terraform.lock.hcl in the Nix build, so tofu init resolves nothing at runtime",
+          "url": "https://github.com/Lillecarl/easykubenix/issues/47",
+          "author": "Lillecarl",
+          "created_at": "2026-09-20T22:01:03Z"
+        },
+        {
+          "title": "ISSUE: pi 1.0.0 compatibility guard — re-verify baseline, PR-time drift check, README note",
+          "url": "https://github.com/gtrabanco/agentic-workflow/issues/283",
+          "author": "gtrabanco",
+          "created_at": "2026-10-02T01:16:40Z"
+        },
+        {
+          "title": "[Maintenance] Migrate Design System consumption to @bytefolk/ui",
+          "url": "https://github.com/bytefolk/roleweave/issues/121",
+          "author": "PeterGuy326",
+          "created_at": "2026-09-01T17:21:56Z"
+        },
+        {
+          "title": "Bug: Different devEngines.packageManager.version in repo root vs working-directory breaks setup",
+          "url": "https://github.com/pnpm/setup/issues/45",
+          "author": "alecglassford",
+          "created_at": "2026-08-31T19:01:20Z"
+        },
+        {
+          "title": "Remove @rollup/rollup-linux-x64-gnu from optionalDependencies and restore npm ci",
+          "url": "https://github.com/able-wong/docx-markdown-utils/issues/57",
+          "author": "able-wong",
+          "created_at": "2026-09-04T14:13:36Z"
+        },
+        {
+          "title": "CI resolves JS deps from live npm in two verification jobs, so upstream publishes break our runs and the locked tree is never tested",
+          "url": "https://github.com/sakibsadmanshajib/hive/issues/715",
+          "author": "sakibsadmanshajib",
+          "created_at": "2026-08-04T19:45:43Z"
+        },
+        {
+          "title": "[TEMPO-B06-SUPPORT-AGENT-TEST-DEPS] Pin in-memory Convex component test dependency",
+          "url": "https://github.com/Levidavidspublic/tempo-rhythm/issues/814",
+          "author": "Division6066",
+          "created_at": "2026-10-08T19:51:29Z"
+        }
+      ]
+    }
+  ]
+}

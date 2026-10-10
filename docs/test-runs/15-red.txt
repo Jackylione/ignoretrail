@@ -1,0 +1,6 @@
+--- FAIL: TestInvalidPatternNamesSourceAndLineWithoutOutput (0.32s)
+    main_test.go:184: unexpected pattern error: {code:2 out: err:ignoretrail: syntax error in pattern
+        }
+FAIL
+FAIL	ignoretrail	6.524s
+FAIL

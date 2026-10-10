@@ -1,0 +1,56 @@
+mkdir -p .tmp .cache/config .cache/telemetry
+printf 'off\n' > .cache/telemetry/mode
+go test -count=1 -v ./...
+=== RUN   TestExcludedDirectoryExplainsRuleLine
+--- PASS: TestExcludedDirectoryExplainsRuleLine (0.38s)
+=== RUN   TestNegationReincludesFileBelowExcludedParent
+--- PASS: TestNegationReincludesFileBelowExcludedParent (0.31s)
+=== RUN   TestBatchDoubleStarReinclusionKeepsExcludedSiblings
+--- PASS: TestBatchDoubleStarReinclusionKeepsExcludedSiblings (0.31s)
+=== RUN   TestRootGlobDoesNotExcludeNestedFiles
+--- PASS: TestRootGlobDoesNotExcludeNestedFiles (0.31s)
+=== RUN   TestMissingIgnoreFileIncludesWithoutCreatingFiles
+--- PASS: TestMissingIgnoreFileIncludesWithoutCreatingFiles (0.36s)
+=== RUN   TestContextRootIsNeverExcluded
+--- PASS: TestContextRootIsNeverExcluded (0.31s)
+=== RUN   TestOnlyFirstLineBOMIsRemovedAndOriginalLinesSurvive
+--- PASS: TestOnlyFirstLineBOMIsRemovedAndOriginalLinesSurvive (0.31s)
+=== RUN   TestPathsAreNormalizedRelativeToContext
+--- PASS: TestPathsAreNormalizedRelativeToContext (0.33s)
+=== RUN   TestInvalidPathsRejectWholeBatchWithoutPartialOutput
+=== RUN   TestInvalidPathsRejectWholeBatchWithoutPartialOutput/../outside
+=== RUN   TestInvalidPathsRejectWholeBatchWithoutPartialOutput//outside
+=== RUN   TestInvalidPathsRejectWholeBatchWithoutPartialOutput/#00
+--- PASS: TestInvalidPathsRejectWholeBatchWithoutPartialOutput (1.05s)
+    --- PASS: TestInvalidPathsRejectWholeBatchWithoutPartialOutput/../outside (0.37s)
+    --- PASS: TestInvalidPathsRejectWholeBatchWithoutPartialOutput//outside (0.31s)
+    --- PASS: TestInvalidPathsRejectWholeBatchWithoutPartialOutput/#00 (0.36s)
+=== RUN   TestMissingArgumentsShowUsageWithoutPanic
+--- PASS: TestMissingArgumentsShowUsageWithoutPanic (0.63s)
+=== RUN   TestHelpExplainsExitCodesAndRelativePaths
+--- PASS: TestHelpExplainsExitCodesAndRelativePaths (0.32s)
+=== RUN   TestDockerfileSpecificRulesReplaceRootRules
+--- PASS: TestDockerfileSpecificRulesReplaceRootRules (0.37s)
+=== RUN   TestDefaultDockerfileUsesItsOwnIgnoreFile
+--- PASS: TestDefaultDockerfileUsesItsOwnIgnoreFile (0.32s)
+=== RUN   TestContextMustBeAnExistingDirectory
+--- PASS: TestContextMustBeAnExistingDirectory (0.98s)
+=== RUN   TestInvalidPatternNamesSourceAndLineWithoutOutput
+--- PASS: TestInvalidPatternNamesSourceAndLineWithoutOutput (0.63s)
+=== RUN   TestDockerfilePathMustStayInsideContext
+--- PASS: TestDockerfilePathMustStayInsideContext (0.98s)
+=== RUN   TestIgnoreSymlinkCannotReadOutsideContext
+--- PASS: TestIgnoreSymlinkCannotReadOutsideContext (0.31s)
+=== RUN   TestOversizedIgnoreLineFailsWithSourceLocation
+--- PASS: TestOversizedIgnoreLineFailsWithSourceLocation (0.36s)
+=== RUN   TestSpecialIgnoreFileIsRejectedWithoutBlocking
+--- PASS: TestSpecialIgnoreFileIsRejectedWithoutBlocking (0.32s)
+=== RUN   TestIgnoreFileNamesWithSpacesAreQuoted
+--- PASS: TestIgnoreFileNamesWithSpacesAreQuoted (0.30s)
+=== RUN   TestHelpTakesPrecedenceOverPositionalArguments
+--- PASS: TestHelpTakesPrecedenceOverPositionalArguments (0.37s)
+PASS
+ok  	ignoretrail	9.575s
+go vet ./...
+mkdir -p bin
+go build -trimpath -o bin/ignoretrail .

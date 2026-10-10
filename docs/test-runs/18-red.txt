@@ -1,0 +1,6 @@
+--- FAIL: TestOversizedIgnoreLineFailsWithSourceLocation (0.36s)
+    main_test.go:215: unexpected oversized-line result: {code:2 out: err:ignoretrail: bufio.Scanner: token too long
+        }
+FAIL
+FAIL	ignoretrail	8.388s
+FAIL

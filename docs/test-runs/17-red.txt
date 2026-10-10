@@ -1,0 +1,7 @@
+--- FAIL: TestIgnoreSymlinkCannotReadOutsideContext (0.35s)
+    main_test.go:207: unexpected outside-context result: {code:1 out:EXCLUDED "app.py"
+          exclude .dockerignore:1 "*"
+         err:}
+FAIL
+FAIL	ignoretrail	7.963s
+FAIL

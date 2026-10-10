@@ -1,0 +1,7 @@
+--- FAIL: TestContextMustBeAnExistingDirectory (0.35s)
+    main_test.go:174: unexpected context error: {code:0 out:INCLUDED "app.py"
+          no matching exclusion
+         err:}
+FAIL
+FAIL	ignoretrail	5.533s
+FAIL

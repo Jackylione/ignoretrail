@@ -1,0 +1,7 @@
+--- FAIL: TestDockerfilePathMustStayInsideContext (0.30s)
+    main_test.go:194: unexpected Dockerfile error: {code:0 out:INCLUDED "app.py"
+          no matching exclusion
+         err:}
+FAIL
+FAIL	ignoretrail	7.132s
+FAIL

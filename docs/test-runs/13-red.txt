@@ -1,0 +1,5 @@
+--- FAIL: TestDefaultDockerfileUsesItsOwnIgnoreFile (0.35s)
+    main_test.go:165: got code=1 stdout="EXCLUDED \"app.py\"\n  exclude .dockerignore:1 \"*\"\n" stderr=""; want code=0 stdout="INCLUDED \"app.py\"\n  no matching exclusion\n"
+FAIL
+FAIL	ignoretrail	5.233s
+FAIL

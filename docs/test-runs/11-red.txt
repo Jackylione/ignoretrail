@@ -1,0 +1,6 @@
+--- FAIL: TestHelpExplainsExitCodesAndRelativePaths (0.31s)
+    main_test.go:143: unexpected help result: {code:2 out: err:ignoretrail: usage: ignoretrail [-f Dockerfile] CONTEXT PATH...
+        }
+FAIL
+FAIL	ignoretrail	4.434s
+FAIL

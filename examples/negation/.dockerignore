@@ -1,0 +1,3 @@
+# Exclude the directory, then keep one file.
+sub/
+!sub/b.txt

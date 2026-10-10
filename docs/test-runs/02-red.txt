@@ -1,0 +1,5 @@
+--- FAIL: TestNegationReincludesFileBelowExcludedParent (0.31s)
+    main_test.go:63: got code=1 stdout="EXCLUDED \"vendor/keep/important.py\"\n  exclude .dockerignore:1 \"vendor/\"\n" stderr=""; want code=0 stdout="INCLUDED \"vendor/keep/important.py\"\n  exclude .dockerignore:1 \"vendor/\"\n  include .dockerignore:2 \"!vendor/keep/\"\n"
+FAIL
+FAIL	ignoretrail	0.648s
+FAIL

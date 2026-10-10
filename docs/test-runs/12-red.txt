@@ -1,0 +1,5 @@
+--- FAIL: TestDockerfileSpecificRulesReplaceRootRules (0.31s)
+    main_test.go:155: got code=2 stdout="" stderr="ignoretrail: path must stay relative to context: \"/home/ubuntu/codex-worker/projects/devtool-20261010/.tmp/TestDockerfileSpecificRulesReplaceRootRules2149291815/001\"\n"; want code=1 stdout="INCLUDED \"app.py\"\n  no matching exclusion\nEXCLUDED \"temp/a\"\n  exclude docker/build.Dockerfile.dockerignore:1 \"temp/\"\n"
+FAIL
+FAIL	ignoretrail	4.714s
+FAIL

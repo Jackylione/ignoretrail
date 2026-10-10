@@ -1,0 +1,5 @@
+--- FAIL: TestPathsAreNormalizedRelativeToContext (0.32s)
+    main_test.go:114: got code=1 stdout="EXCLUDED \"./other/../src/app.py\"\n  exclude .dockerignore:1 \"/src/\"\n" stderr=""; want code=1 stdout="EXCLUDED \"src/app.py\"\n  exclude .dockerignore:1 \"/src/\"\n"
+FAIL
+FAIL	ignoretrail	2.483s
+FAIL

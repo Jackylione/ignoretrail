@@ -1,0 +1,5 @@
+--- FAIL: TestBatchDoubleStarReinclusionKeepsExcludedSiblings (0.33s)
+    main_test.go:71: got code=0 stdout="INCLUDED \"foo/bar/a.txt\"\n  exclude .dockerignore:1 \"**\"\n  include .dockerignore:2 \"!**/a.txt\"\n" stderr=""; want code=1 stdout="INCLUDED \"foo/bar/a.txt\"\n  exclude .dockerignore:1 \"**\"\n  include .dockerignore:2 \"!**/a.txt\"\nEXCLUDED \"foo/b.txt\"\n  exclude .dockerignore:1 \"**\"\nINCLUDED \"a.txt\"\n  exclude .dockerignore:1 \"**\"\n  include .dockerignore:2 \"!**/a.txt\"\n"
+FAIL
+FAIL	ignoretrail	1.006s
+FAIL

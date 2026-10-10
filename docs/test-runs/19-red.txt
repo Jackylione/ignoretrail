@@ -1,0 +1,5 @@
+--- FAIL: TestSpecialIgnoreFileIsRejectedWithoutBlocking (3.32s)
+    main_test.go:231: unexpected special-file result: {code:-1 out: err:}
+FAIL
+FAIL	ignoretrail	11.881s
+FAIL

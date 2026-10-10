@@ -1,0 +1,13 @@
+$ ./bin/ignoretrail examples/negation sub/b.txt
+INCLUDED "sub/b.txt"
+  exclude .dockerignore:2 "sub/"
+  include .dockerignore:3 "!sub/b.txt"
+exit=0
+
+$ ./bin/ignoretrail examples/negation sub/a.txt sub/b.txt
+EXCLUDED "sub/a.txt"
+  exclude .dockerignore:2 "sub/"
+INCLUDED "sub/b.txt"
+  exclude .dockerignore:2 "sub/"
+  include .dockerignore:3 "!sub/b.txt"
+exit=1

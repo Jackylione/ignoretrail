@@ -1,0 +1,12 @@
+--- FAIL: TestMissingArgumentsShowUsageWithoutPanic (0.33s)
+    main_test.go:135: unexpected usage result: {code:2 out: err:panic: runtime error: slice bounds out of range [1:0]
+        
+        goroutine 1 [running]:
+        main.run({0x1a7b0191a010?, 0x0?, 0x0?})
+        	/home/ubuntu/codex-worker/projects/devtool-20261010/main.go:24 +0x1c5
+        main.main()
+        	/home/ubuntu/codex-worker/projects/devtool-20261010/main.go:15 +0x54
+        }
+FAIL
+FAIL	ignoretrail	3.770s
+FAIL

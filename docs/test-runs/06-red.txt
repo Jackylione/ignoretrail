@@ -1,0 +1,5 @@
+--- FAIL: TestContextRootIsNeverExcluded (0.32s)
+    main_test.go:101: got code=1 stdout="EXCLUDED \".\"\n  exclude .dockerignore:1 \".*\"\n" stderr=""; want code=0 stdout="INCLUDED \".\"\n  context root is never excluded\n"
+FAIL
+FAIL	ignoretrail	1.908s
+FAIL
